@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+
+button{
+    background: none;
+    border: none;
+}
+
+
+/* style start */
+body{
+    background-color: #E7E8EC;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.btn-Single,.btn-Rounded, .btn-icon, .btn-size, .btn-block {
+    background-color:var(--white);
+    padding: var(--space-3x) var(--space-10x) var(--space-5x) var(--space-8x);
+}
+ .btn-Single h1 ,
+.btn-Rounded h1,
+.btn-icon h1,
+.btn-size h1,
+.btn-block h1{
+    color: var(--grey);
+    font-size: var(--space-3x);
+}
+.btn-Single p,
+.btn-Rounded p, 
+.btn-icon p,
+.btn-size p,
+.btn-block p{
+    color: var(--grey);
+    font-size: var(--space-3x);
+}
+.btn-Single span,
+.btn-Rounded span,
+.btn-icon span
+.btn-size span,
+.btn-block span{
+    color: var(--red);
+}
+
+.btn-Single button,
+.btn-Rounded button
+,.btn-icon button,
+.btn-size button,
+.btn-block button{
+    margin-top: var(--space-2x);
+    cursor: pointer;
+}
+
+.btn-icon button{
+    width: 42px;
+    height: 42px;
+    text-align: center;
+    padding: 0;
+    margin-right: var(--space-5x);
+    margin-top: var(--space-3x);
+}
+
+.btn-block button{
+    width: 100%;
+}
+.btn-block button i{
+    margin: 0 var(--space-2x);
+}
+
+.heart{
+    color:var(--danger-color);
+}
+.music{
+    color:var(--dark-color);
+}
+.star{
+color:var(--primary-color)
+}
+.signal{
+color: var(--info-color) !important;
+}
+.trend{
+color: var(--success-color);
+}

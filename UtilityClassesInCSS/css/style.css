@@ -1,0 +1,58 @@
+/* HTML taglarinin defaul olan xususiyyetlerinin temizlenmesi */
+body{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+
+button{
+    background: none;
+    border: none;
+}
+
+
+/* style start */
+body{
+    background-color: #E7E8EC;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.btn-Single{
+    background-color:var(--white);
+    padding: var(--space-x) var(--space-8x);
+}
+.btn-Single h1 ,
+.btn-Rounded h1{
+    color: var(--grey);
+}
+.btn-Single p,
+.btn-Rounded p{
+    color: var(--grey);
+}
+.btn-Single span,
+.btn-Rounded span{
+    color: var(--red);
+}
+.btn-Single button{
+    margin-top: var(--space-2x);
+    cursor: pointer;
+}
+.btn-Single a{
+    margin: var(--space-2x) var(--space-x);
+}
+.btn-Rounded{
+    background-color:var(--white);
+}
+
+.btn-Rounded a{
+    margin: var(--space-2x) var(--space-x);
+}
+
+.btn-Rounded button{
+    margin-top: var(--space-2x);
+    cursor: pointer;
+}

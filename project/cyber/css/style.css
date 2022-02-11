@@ -1,0 +1,65 @@
+/* lahiyede istifade olunacaq umumi classlar */
+#general_info{
+background-color: var(--main-color);
+padding: var(--space-3x) 0px;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.gi-contact span{
+    margin: 0 var(--space-x);  
+}
+.gi-contact span i{
+margin-right: var(--space-x);
+}
+.gi-social i{
+   margin: 0 var(--space-x);
+}
+
+/* navbar section styles */
+#navbar{
+    padding: var(--space-3x) 0px;
+}
+
+
+.navbar-nav ul li a{
+    padding: 0px var(--space-2x);
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+/* slider section styles */
+#slider{
+
+}
+
+.slider-item{
+    height: 800px;
+    background-image: url(../img/slide1-home.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.slider-item-content{
+    height: 800px;
+    color:var(--white-color);
+    padding-right: 36%;
+}
+
+.slider-item-content h5{
+    font-size: 2em;
+    text-transform: uppercase;
+}
+.slider-item-content h1{
+    font-size: 4em;
+    text-transform: capitalize;
+    margin: var(--space-3x) 0;
+}
+.slider-item-content p{
+       margin: var(--space-3x) 0;
+}
+
+.slider-item-content a{
+    margin: var(--space-3x) 0;
+}

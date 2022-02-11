@@ -1,0 +1,119 @@
+:root{
+    --primary-color:#5e2572;
+    --secondary-color:#d9dbdc;
+    --success-color:#00c689;
+    --danger-color:#fc7242;
+    --warning-color:#ffc100;
+    --info-color:#4d13d1;
+    --light-color:#f8f9fa;
+    --dark-color:#4f4a60;
+    --white-color:white;
+    --white:white;
+    --black:black;
+    --blue:#007bff;
+    --grey:#4A4A4A;
+    --red:red;
+    --space-x:5px;
+    --space-2x:10px;
+    --space-3x:15px;
+    --space-4x:20px;
+    --space-5x:25px;
+    --space-8x:40px;
+    --space-10x:50px;
+    
+}
+.container{  
+    width: 900px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex !important;
+}            
+.justify-content-between{
+    justify-content: space-between !important;
+ }
+.justify-content-around{
+    justify-content: space-around !important;
+ }
+ .justify-content-evenly{
+    justify-content: space-evenly !important;
+ }
+
+ .flex-wrap{
+   flex-wrap: wrap;
+ }
+ .align-items{ 
+   align-items:baseline;
+ } 
+
+
+ .btn-primary{
+    background-color: var(--primary-color);
+    color: var(--white);
+    border-color: var(--primary-color);
+ }
+ .btn-primary:hover {
+   background-color: #461c55;
+   border-color:#3e194b;
+ }
+
+ .btn-secondary{
+    background-color: var(--secondary-color);
+    color: var(--black);
+    border-color: var(--secondary-color);
+ }
+
+ .btn-success{
+    background-color: var(--success-color) ;
+    color: var(--white);
+    border-color: var(--success-color) ;
+ }
+ .btn-danger{
+    background-color: var(--danger-color);
+    color: var(--white);
+    border-color: var(--danger-color);
+ }
+ .btn-warning{
+    background-color: var(--warning-color);
+    color: var(--black);
+    border-color: var(--warning-color);
+ }
+ .btn-info{
+    background-color: var(--info-color);
+    color:var(--white);
+    border-color: var(--info-color);
+ }
+ .btn-light{
+    background-color: var(--light-color);
+    color: var(--black);
+    border-color: var(--light-color);
+ }
+ .btn-dark{
+    background-color: var(--dark-color);
+    color: var(--white);
+    border-color: var(--dark-color);
+ }
+ 
+ .btn-white{
+    
+    color: var(--blue);
+    
+ }
+
+.btn-radius-small{
+    border-radius: var(--space-x);
+}
+ .btn-radius-large{
+     border-radius: var(--space-10x);
+ }
+
+ .btn-padding{
+     padding: var(--space-3x) var(--space-5x);
+ }
+
+ .padding-top-10x{
+padding-top: var(--space-10x);
+ }
+
+ 

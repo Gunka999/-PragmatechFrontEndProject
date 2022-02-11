@@ -83,6 +83,7 @@
     --space-3x:15px;
     --space-4x:20px;
     --space-5x:25px;
+    --space-6x:30px;
     --space-7x:35px;
     --space-8x:40px;
     --space-10x:50px;
@@ -130,6 +131,9 @@ align-items: flex-start;
  .btn-padding{
      padding: var(--space-3x) var(--space-5x);
  }
+ .btn-padding-2{
+   padding: var(--space-4x) var(--space-4x);
+}
 
  .padding-top-10x{
 padding-top: var(--space-10x);
@@ -138,14 +142,24 @@ padding-top: var(--space-10x);
  .margin-top-5x{
      margin-top:var(--space-5x)
  }
+ .margin-top-3x{
+   margin-top:var(--space-3x)
+}
+
 
  .margin-top-10x{
     margin-top:var(--space-10x)
 }
+.margin-right-2x{
+   margin-right: var(--space-2x);
+}
+.margin-right-3x{
+   margin-right: var(--space-3x);
+}
  .margin-right-5x{
      margin-right: var(--space-5x);
  }
- .margin-left{
+ .margin-left-2x{
 margin-left: var(--space-2x);
  }
  .margin-left-3x{
@@ -160,6 +174,12 @@ margin-left: var(--space-2x);
     color: var(--black);
 }
 
+.font-size-4x{
+   font-size: var(--space-4x);
+}
+.font-size-5x{
+   font-size: var(--space-5x);
+}
 
 /* background */
 

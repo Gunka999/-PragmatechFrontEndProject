@@ -20,7 +20,7 @@ body{
     font-family: 'Prompt', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
-.btn-Single,.btn-Rounded, .btn-icon, .btn-size, .btn-block {
+.btn-Single,.btn-Rounded, .btn-icon, .btn-size, .btn-block, .btn-group {
     background-color:var(--white);
     padding: var(--space-3x) var(--space-10x) var(--space-5x) var(--space-8x);
 }
@@ -28,15 +28,18 @@ body{
 .btn-Rounded h1,
 .btn-icon h1,
 .btn-size h1,
-.btn-block h1{
-    color: var(--grey);
+.btn-block h1,
+.btn-group h1{
+    color: var(--h1-color);
     font-size: var(--space-3x);
+    font-weight: 400;
 }
 .btn-Single p,
 .btn-Rounded p, 
 .btn-icon p,
 .btn-size p,
-.btn-block p{
+.btn-block p,
+.btn-group p{
     color: var(--grey);
     font-size: var(--space-3x);
 }
@@ -44,7 +47,8 @@ body{
 .btn-Rounded span,
 .btn-icon span
 .btn-size span,
-.btn-block span{
+.btn-block span,
+.btn-group span{
     color: var(--red);
 }
 
@@ -52,8 +56,13 @@ body{
 .btn-Rounded button
 ,.btn-icon button,
 .btn-size button,
-.btn-block button{
+.btn-block button
+{
     margin-top: var(--space-2x);
+    cursor: pointer;
+}
+.btn-group button{
+    
     cursor: pointer;
 }
 

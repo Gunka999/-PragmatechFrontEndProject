@@ -82,3 +82,13 @@
    display: flex;
    justify-content: flex-start;
 }
+
+.flex-direction-column{
+flex-direction: column;
+}
+
+/* Padding */
+
+.padding-2x{
+    padding: var(--space-2x);
+}

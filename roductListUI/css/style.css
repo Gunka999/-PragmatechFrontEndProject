@@ -2,9 +2,9 @@ body {
     background-color: var( --white-color);
 }
 
-/* .Collection-list1{
+.Collection-list1{
     position: relative;
-} */
+}
 
 .cl-img{
     width: 100%;
@@ -14,12 +14,15 @@ body {
 
 }
 
-/* .cl-img-icon{
+.cl-img-icon{
 position:absolute;
-} */
+right: 0;
+top: 0;
+
+}
 
 .cl-img img{
-    width: 330px;
+    width: 300px;
     height: 400px;
     /* position: absolute; */
 }

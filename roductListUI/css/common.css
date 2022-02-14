@@ -47,11 +47,8 @@
 
 :root{
     --white-color:white;
-    --white:white;
-    --black:black;
-    --blue:#007bff;
-    --grey:#76838f;
-    --h1-color:#4a4a4a;
+    --scarlet-color:#DD9FA2;
+    --border-color:#ebe9eb;
     --red:red;
     --space-x:5px;
     --space-2x:10px;

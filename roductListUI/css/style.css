@@ -1,0 +1,17 @@
+body {
+    background-color: var( --white-color);
+}
+
+
+.cl-img{
+    width: 250px;
+    height: 370px;
+    background-image: url(../img/img1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* position: absolute; */
+}
+.cl-img-icon{
+    position: relative;
+}

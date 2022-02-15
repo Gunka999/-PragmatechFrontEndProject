@@ -1,9 +1,9 @@
-.container{
+.container {
     width: 1200px;
     margin: 0 auto;
 }
 
-.row{
+.row {
     display: flex;
     justify-content: space-between;
 }
@@ -49,6 +49,7 @@
     --white-color:white;
     --scarlet-color:#DD9FA2;
     --border-color:#ebe9eb;
+    --black-color:black;
     --red:red;
     --space-x:5px;
     --space-2x:10px;
@@ -81,11 +82,15 @@
 }
 
 .flex-direction-column{
-flex-direction: column;
+    flex-direction: column;
 }
 
 /* Padding */
 
 .padding-2x{
     padding: var(--space-2x);
+}
+
+.font-size-2x{
+    font-size: var(--space-2x);
 }

@@ -63,3 +63,11 @@ margin-right: var(--space-x);
 .slider-item-content a{
     margin: var(--space-3x) 0;
 }
+
+.slider-controls a{
+    width: 50px;
+    height: 50px;
+    border: 1px solid red;
+    color:red;
+    border-radius:50px;
+}

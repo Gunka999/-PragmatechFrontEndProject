@@ -54,20 +54,24 @@ body {
 }
 .cl-img-icon span:hover {
     background: var(--scarlet-color);
+    cursor:pointer;
 }
 
 .Latest-Collection:hover .img-top{
     display: inline;
+    cursor:pointer;
 }
 
 .Latest-Collection:hover .invisible-icon{
    opacity: 1;
    transform: translateY(0px);
    transition-duration: 0.5s;
+   cursor:pointer;
 }
 
 .Latest-Collection:hover {
     border: 2px solid var(--border-color);
+    cursor:pointer;
 }
 
 .collection-list-text1 span i{
@@ -89,9 +93,13 @@ padding: var(--space-2x) 0 0 0 ;
 .collection-list-text1 button:hover{
     background:var(--black-color);
     color:var(--white-color);
+    cursor:pointer;
     
  }
-
+ .collection-list-text1 p:hover{
+color:var(--scarlet-color);
+cursor:pointer;
+ }
 
 .Latest-Collection:hover .collection-list-text1 button{
     opacity: 1;

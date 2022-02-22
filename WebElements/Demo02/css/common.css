@@ -1,0 +1,66 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.col-1 {
+  widh: calc((100/12)*1);
+}
+
+.col-2 {
+  widh: calc((100/12)*2);
+}
+
+.col-3 {
+  widh: calc((100/12)*3);
+}
+
+.col-4 {
+  widh: calc((100/12)*4);
+}
+
+.col-5 {
+  widh: calc((100/12)*5);
+}
+
+.col-6 {
+  widh: calc((100/12)*6);
+}
+
+.col-7 {
+  widh: calc((100/12)*7);
+}
+
+.col-8 {
+  widh: calc((100/12)*8);
+}
+
+.col-9 {
+  widh: calc((100/12)*9);
+}
+
+.col-10 {
+  widh: calc((100/12)*10);
+}
+
+.col-11 {
+  widh: calc((100/12)*11);
+}
+
+.col-12 {
+  widh: calc((100/12)*12);
+}

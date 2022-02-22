@@ -1,0 +1,30 @@
+.demo-title{
+    @extend .background-main;
+    @extend .text-align-center;
+    @extend .padding-2x;
+    @extend .white-color;
+    @extend .font-size-4x;
+}
+
+.services-11{
+    position: relative;
+    border: 1px solid $main-color;
+    margin: $space-8x*2 0 $space-8x;
+    padding: 70px 2px 74px;
+    border: 1px solid #ee12a0;
+    border-radius: 100%;
+    background: #fff;
+    i{
+        position: absolute;
+        top: -90px;
+        left: 50%;
+        height: 110px;
+        margin: 20px 0;
+        transition: all .4s ease;
+        transform: translateX(-50%);
+        color: #fff;
+        border-radius: 100%;
+        background: #ee12a0;
+    }
+}
+

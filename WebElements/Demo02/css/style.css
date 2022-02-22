@@ -1,0 +1,185 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.col-1 {
+  widh: calc((100/12)*1);
+}
+
+.col-2 {
+  widh: calc((100/12)*2);
+}
+
+.col-3 {
+  widh: calc((100/12)*3);
+}
+
+.col-4 {
+  widh: calc((100/12)*4);
+}
+
+.col-5 {
+  widh: calc((100/12)*5);
+}
+
+.col-6 {
+  widh: calc((100/12)*6);
+}
+
+.col-7 {
+  widh: calc((100/12)*7);
+}
+
+.col-8 {
+  widh: calc((100/12)*8);
+}
+
+.col-9 {
+  widh: calc((100/12)*9);
+}
+
+.col-10 {
+  widh: calc((100/12)*10);
+}
+
+.col-11 {
+  widh: calc((100/12)*11);
+}
+
+.col-12 {
+  widh: calc((100/12)*12);
+}
+
+.background-main, .demo-title {
+  background: #EE12A0;
+}
+
+.white-color, .demo-title {
+  color: white;
+}
+
+.black-color {
+  color: black;
+}
+
+.text-align-center, .demo-title {
+  text-align: center;
+}
+
+.font-size-2x {
+  font-size: 10px;
+}
+
+.font-size-3x {
+  font-size: 15px;
+}
+
+.font-size-4x, .demo-title {
+  font-size: 20px;
+}
+
+.font-size-6x {
+  font-size: 30px;
+}
+
+.margin-0 {
+  margin: 0;
+}
+
+.padding-0 {
+  padding: 0;
+}
+
+.margin-x {
+  margin: 5px;
+}
+
+.padding-x {
+  padding: 5px;
+}
+
+.margin-2x {
+  margin: 10px;
+}
+
+.padding-2x, .demo-title {
+  padding: 10px;
+}
+
+.margin-4x {
+  margin: 20px;
+}
+
+.margin-top-4x {
+  margin-top: 20px;
+}
+
+.padding-4x {
+  padding: 20px;
+}
+
+.margin-top-12x {
+  margin-top: 60px;
+}
+
+.padding-16x {
+  padding: 80px;
+}
+
+.margin-16x {
+  padding: 80px;
+}
+
+body, ul, h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.services-11 {
+  position: relative;
+  border: 1px solid #EE12A0;
+  margin: 80px 0 40px;
+  padding: 70px 2px 74px;
+  border: 1px solid #ee12a0;
+  border-radius: 100%;
+  background: #fff;
+}
+
+.services-11 i {
+  position: absolute;
+  top: -90px;
+  left: 50%;
+  height: 110px;
+  margin: 20px 0;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  color: #fff;
+  border-radius: 100%;
+  background: #ee12a0;
+}

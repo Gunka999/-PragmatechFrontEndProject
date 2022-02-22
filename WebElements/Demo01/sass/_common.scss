@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@for $i from 1 through 12 {
+    .col-#{$i} {
+      widh: calc((100/12)*#{$i})
+    }
+  }
+
+
+//   MARGIN
+
+.margin-0 {
+margin: 0;
+}
+.padding-0{
+    padding: 0;
+    }
+.margin-x{
+    margin: $space-x;
+    }
+.padding-x{
+    padding: $space-x;
+        }
+.margin-2x {
+    margin: $space-2x;
+    }
+.padding-2x{
+   padding: $space-2x;
+}
+.margin-4x {
+    margin: $space-4x;
+}
+.padding-4x{
+    padding: $space-4x;
+}
+
+.margin-top-x{
+margin-top: $space-x;
+}
+.margin-top-2x{
+    margin-top: $space-2x;
+}
+.margin-top-3x{
+    margin-top: $space-3x;
+}
+.margin-top-4x{
+    margin-top: $space-4x;
+}
+.margin-top-5x{
+    margin-top: $space-5x;
+}
+.margin-top-10x{
+    margin-top: $space-12x;
+}
+
+
+
+.text-align-center{
+    text-align: center;
+}
+
+
+// Font
+
+.font-size-2x{
+    font-size: $space-2x;
+}
+.font-size-3x{
+    font-size: $space-3x;
+}
+.font-size-4x{
+    font-size: $space-4x;
+}
+.font-size-6x{
+    font-size: $space-6x;
+}
+
+
+
+.background-main{
+    background: $main-color
+}

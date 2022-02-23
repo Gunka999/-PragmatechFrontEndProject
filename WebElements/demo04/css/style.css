@@ -1,0 +1,199 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.col-1 {
+  widh: calc((100/12)*1);
+}
+
+.col-2 {
+  widh: calc((100/12)*2);
+}
+
+.col-3 {
+  widh: calc((100/12)*3);
+}
+
+.col-4 {
+  widh: calc((100/12)*4);
+}
+
+.col-5 {
+  widh: calc((100/12)*5);
+}
+
+.col-6 {
+  widh: calc((100/12)*6);
+}
+
+.col-7 {
+  widh: calc((100/12)*7);
+}
+
+.col-8 {
+  widh: calc((100/12)*8);
+}
+
+.col-9 {
+  widh: calc((100/12)*9);
+}
+
+.col-10 {
+  widh: calc((100/12)*10);
+}
+
+.col-11 {
+  widh: calc((100/12)*11);
+}
+
+.col-12 {
+  widh: calc((100/12)*12);
+}
+
+.background-main, .demo-title {
+  background: #E12573;
+}
+
+.white-color, .demo-title {
+  color: white;
+}
+
+.black-color {
+  color: black;
+}
+
+.text-align-center, .demo-title {
+  text-align: center;
+}
+
+.font-size-2x {
+  font-size: 10px;
+}
+
+.font-size-3x, .services-04 p {
+  font-size: 15px;
+}
+
+.font-size-4x, .demo-title {
+  font-size: 20px;
+}
+
+.font-size-6x, .services-04 h2 {
+  font-size: 30px;
+}
+
+.margin-0 {
+  margin: 0;
+}
+
+.padding-0 {
+  padding: 0;
+}
+
+.margin-x {
+  margin: 5px;
+}
+
+.margin-top-2x {
+  margin-top: 10px;
+}
+
+.padding-x {
+  padding: 5px;
+}
+
+.margin-2x {
+  margin: 10px;
+}
+
+.padding-2x, .demo-title {
+  padding: 10px;
+}
+
+.margin-4x {
+  margin: 20px;
+}
+
+.margin-top-4x {
+  margin-top: 20px;
+}
+
+.padding-4x {
+  padding: 20px;
+}
+
+.margin-top-12x {
+  margin-top: 60px;
+}
+
+.padding-16x {
+  padding: 80px;
+}
+
+.margin-16x {
+  padding: 80px;
+}
+
+.margin-top-16x {
+  margin-top: 80px;
+}
+
+body, ul, h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+p {
+  font-size: 14px;
+}
+
+.type-04 {
+  padding: 0 15px;
+}
+
+.services-04 {
+  border: 1px solid #E12573;
+}
+
+.services-04 h2 {
+  padding: 20px 0px;
+}
+
+.services-04 p {
+  color: #919191;
+  padding: 0 40px;
+  margin-bottom: 50px;
+}
+
+.services-04 a {
+  background: #E12573;
+  border: 1px solid #E12573;
+  margin: 10px 0 20px;
+  padding: 15px 35px;
+  color: white;
+  border-radius: 40px;
+}

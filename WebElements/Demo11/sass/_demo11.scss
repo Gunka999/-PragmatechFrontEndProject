@@ -1,0 +1,70 @@
+.demo-title{
+    @extend .background-main;
+    @extend .text-align-center;
+    @extend .padding-2x;
+    @extend .white-color;
+    @extend .font-size-4x;
+}
+.type-11{
+    padding: 0 $space-3x;
+}
+.services-11{
+    position: relative;
+    border: 1px solid $main-color;
+    margin: $space-8x*2 0 $space-8x;
+    padding: $space-8x*2 2px 74px;
+    border: 1px solid #ee12a0;
+    border-radius: 100%;
+    background: $white-color;
+    h2{
+        @extend .font-size-6x;
+        padding: $space-4x 0px;
+    }
+    p{
+        color: #919191;
+        padding: 0 40px;
+        @extend .font-size-3x;
+        margin-bottom: $space-10x;
+    }
+    a{
+        background: $main-color;
+        border:1px solid $main-color;;
+        margin: $space-2x 0 $space-4x;
+        padding: $space-3x $space-7x;
+        color: $white-color;
+        border-radius: $space-8x;
+    }
+    i{
+        position: absolute;
+        top: -90px;
+        left: 50%;
+        height: 130px;
+        width: 130px;
+        line-height: 120px;
+        font-size: 52px;
+        margin: 20px 0;
+        transition: all .4s ease;
+        transform: translateX(-50%);
+        color: #fff;
+        border-radius: 100%;
+        background: #ee12a0;
+    }
+}
+
+
+.services-11:hover{
+    background:$main-color;
+    h2{
+        color:$white-color;
+    }
+    p{
+        color:$white-color;
+    }
+    a{
+        background:darken($main-color, 5%)
+    }
+    i{
+        background:$white-color;
+        color:$main-color;
+    }
+}

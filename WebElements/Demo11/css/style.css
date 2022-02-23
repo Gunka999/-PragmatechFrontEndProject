@@ -85,7 +85,7 @@
   font-size: 10px;
 }
 
-.font-size-3x {
+.font-size-3x, .services-11 p {
   font-size: 15px;
 }
 
@@ -93,7 +93,7 @@
   font-size: 20px;
 }
 
-.font-size-6x {
+.font-size-6x, .services-11 h2 {
   font-size: 30px;
 }
 
@@ -107,6 +107,10 @@
 
 .margin-x {
   margin: 5px;
+}
+
+.margin-top-2x {
+  margin-top: 10px;
 }
 
 .padding-x {
@@ -145,6 +149,10 @@
   padding: 80px;
 }
 
+.margin-top-16x {
+  margin-top: 80px;
+}
+
 body, ul, h1, h2, h3, h4, h5, h6, p {
   margin: 0;
   padding: 0;
@@ -159,21 +167,47 @@ a {
   color: black;
 }
 
+.type-11 {
+  padding: 0 15px;
+}
+
 .services-11 {
   position: relative;
   border: 1px solid #EE12A0;
   margin: 80px 0 40px;
-  padding: 70px 2px 74px;
+  padding: 80px 2px 74px;
   border: 1px solid #ee12a0;
   border-radius: 100%;
-  background: #fff;
+  background: white;
+}
+
+.services-11 h2 {
+  padding: 20px 0px;
+}
+
+.services-11 p {
+  color: #919191;
+  padding: 0 40px;
+  margin-bottom: 50px;
+}
+
+.services-11 a {
+  background: #EE12A0;
+  border: 1px solid #EE12A0;
+  margin: 10px 0 20px;
+  padding: 15px 35px;
+  color: white;
+  border-radius: 40px;
 }
 
 .services-11 i {
   position: absolute;
   top: -90px;
   left: 50%;
-  height: 110px;
+  height: 130px;
+  width: 130px;
+  line-height: 120px;
+  font-size: 52px;
   margin: 20px 0;
   -webkit-transition: all .4s ease;
   transition: all .4s ease;
@@ -182,4 +216,25 @@ a {
   color: #fff;
   border-radius: 100%;
   background: #ee12a0;
+}
+
+.services-11:hover {
+  background: #EE12A0;
+}
+
+.services-11:hover h2 {
+  color: white;
+}
+
+.services-11:hover p {
+  color: white;
+}
+
+.services-11:hover a {
+  background: #d70f90;
+}
+
+.services-11:hover i {
+  background: white;
+  color: #EE12A0;
 }

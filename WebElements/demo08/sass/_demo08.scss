@@ -1,0 +1,10 @@
+
+.demo-title{
+    @extend .background-main-d8;
+    @extend .font-size-4x;
+    @extend .margin-0;
+    padding: $space-2x $space-3x;
+    color:$white-color;
+    @extend .text-align-center;
+}
+

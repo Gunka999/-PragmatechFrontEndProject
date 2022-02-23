@@ -1,4 +1,6 @@
-
+body{
+    background:$main-background-d8;
+}
 .demo-title{
     @extend .background-main-d8;
     @extend .font-size-4x;
@@ -8,3 +10,91 @@
     @extend .text-align-center;
 }
 
+.container{
+    @extend .margin-top-16x;
+    @extend .margin-bottom-10x;
+    .description{
+        @extend .text-align-center;
+    }
+    h1{
+        @extend .font-size-6x;
+        font-family: 'Droid Sans',sans-serif;
+    }
+    p{
+        @extend .margin-top-2x;
+    }
+}
+
+.service{
+    background: $white-color;
+    margin: 0 $space-3x;
+    padding: $space-6x 0px;
+    .service-item{
+        padding: $space-2x 2px;
+        i{
+    width: 130px;
+    height: 130px;
+    line-height: 120px;
+    font-size: 52px;
+    margin: 20px;
+    color: #ff4343;
+    border: 1px solid #e5e5e5;
+    border-radius: 100%;
+    box-shadow: 5px 5px 3px #ddd;
+        }
+    h2{
+    padding: 15px 0;
+    }
+
+    p{
+        color: #919191;
+        padding: 10px 40px;
+        @extend .font-size-3x;
+        margin-bottom: $space-10x;
+    }
+    a{
+        background: $main-color-d8;
+        border:1px solid $main-color;;
+        margin: $space-2x 0 $space-4x;
+        padding: $space-3x $space-7x;
+        color: $white-color;
+        border-radius: $space-8x;
+    }
+    }
+
+}
+
+    .special-div{
+        position: relative;
+        background: $gray-color;
+        transition: all .4s ease;
+        > * {
+            position: relative;
+            z-index: 2;
+        }
+    
+        &:before {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 0%;
+            height: 100%;
+            content: '';
+            transition: all .4s ease;
+            background:$main-color-d8;
+            z-index: 0;
+        }
+
+    }
+
+    .service-item:hover {
+        .special-div:before {  
+            width: 100%;
+        }
+        h2{
+            color:$white-color;
+        }
+        i{
+            box-shadow: -5px 7px 3px #ddd;
+        }
+    }

@@ -1,34 +1,101 @@
 .demo-title{
-    @extend .background-main;
-    @extend .text-align-center;
-    @extend .padding-2x;
-    @extend .white-color;
+    @extend .background-main-d4;
     @extend .font-size-4x;
+    @extend .margin-0;
+    padding: $space-2x $space-3x;
+    color:$white-color;
+    @extend .text-align-center;
 }
 
-.type-04{
-    padding: 0 $space-3x;
-}
-
-.services-04{
-    border: 1px solid $main-color;
-    h2{
+.container{
+    @extend .margin-top-16x;
+    @extend .margin-bottom-10x;
+    .description{
+        @extend .text-align-center;
+    }
+    h1{
         @extend .font-size-6x;
-        padding: $space-4x 0px;
+        font-family: 'Droid Sans',sans-serif;
     }
     p{
-        color: #919191;
-        padding: 0 40px;
-        @extend .font-size-3x;
-        margin-bottom: $space-10x;
+        @extend .margin-top-2x;
     }
-    a{
-        background: $main-color;
-        border:1px solid $main-color;;
-        margin: $space-2x 0 $space-4x;
-        padding: $space-3x $space-7x;
-        color: $white-color;
-        border-radius: $space-8x;
+}
+
+.service{
+    
+    margin: 0 $space-3x;
+    padding: $space-6x 0px;
+        i{
+            position: absolute;
+            height: 110px;
+            width: 65px;
+            line-height: 107px;
+            font-size: 52px;
+            color:$main-color-d4;
+            top: -15px;
+            left: 10px;
+
+        }
+        h2{
+            padding: 10px 23px;
+            text-align: right;
+            font-size: 33px;
+            font-family: 'Droid Sans',sans-serif;
+        }
+        p{
+            padding: 0px 23px 20px 100px;
+            text-align: right;
+            margin-bottom: 20px;
+        }
+        a{
+            @extend .background-main-d4;
+            padding: $space-3x $space-7x;
+            color: $white-color;
+            border-radius: $space-8x;
+        }
+
+}
+
+.service-item{
+    position: relative;
+    transition: all .4s ease;
+    padding-bottom: 50px;
+
+    > * {
+        position: relative;
+        z-index: 2;
+    }
+
+    &:before {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 0%;
+        height: 100%;
+        content: '';
+        transition: all .4s ease;
+        z-index: 0;
+    }
+
+    &:hover {
+        &:before {
+            width: 100%;
+            background:$main-color-d4;
+        }
+        h2{
+            color:$white-color
+        }
+        p{
+            color:$white-color
+        }
+        i{
+            color:$white-color;
+        }
+        a{
+            background:lighten($main-color-d4, 10%)
+        }
+       
     }
 
 }

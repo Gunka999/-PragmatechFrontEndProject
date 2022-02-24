@@ -1,0 +1,68 @@
+.demo-title{
+    @extend .background-main-d10;
+    @extend .font-size-4x;
+    @extend .margin-0;
+    padding: $space-2x $space-3x;
+    color:$white-color;
+    @extend .text-align-center;
+}
+
+.container{
+    @extend .margin-top-16x;
+    @extend .margin-bottom-10x;
+    .description{
+        @extend .text-align-center;
+    }
+    h1{
+        @extend .font-size-6x;
+        font-family: 'Droid Sans',sans-serif;
+    }
+    p{
+        @extend .margin-top-2x;
+    }
+}
+
+.service{
+    margin: 0 $space-3x;
+    padding: $space-6x 0px;
+    .service-item{
+        @extend .background-main-d10;
+        padding-bottom: 50px;
+        border: 2px solid $main-color-d10;
+        border-radius: 40px 0;
+        transition: all .4s ease;
+        h2{
+            font-size: 30px;
+            font-family: 'Droid Sans',sans-serif;
+            color:$white-color;
+            padding: 10px 0px;
+        }
+        i{
+            width: 100%;
+            margin: 20px 0;
+            color: #533dcd;
+            background: #fff;
+            font-size: 52px;
+            line-height: 120px;
+            height: 130px;
+        }
+        p{
+            color:$white-color;
+            padding: 0 0 30px;
+        }
+        a{
+            background: darken($main-color-d10 , 15%);
+            border: 1px solid $main-color-d10;
+            margin: 10px 0 20px;
+            padding: 15px 35px;
+            color: white;
+            border-radius: 40px;
+        }
+    }
+    
+}
+
+.service-item:hover{
+    border-radius: 0 40px;
+    transition: all .4s ease;
+}

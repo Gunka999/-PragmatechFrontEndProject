@@ -161,11 +161,11 @@
   background: #1CE6AE;
 }
 
-.background-main-d4, .demo-title, .service a {
+.background-main-d4 {
   background: #E12573;
 }
 
-.background-main-d10 {
+.background-main-d10, .demo-title, .service .service-item {
   background: #816EE7;
 }
 
@@ -203,81 +203,49 @@ p {
 .service {
   margin: 0 15px;
   padding: 30px 0px;
+}
+
+.service .service-item {
+  padding-bottom: 50px;
+  border: 2px solid #816EE7;
+  border-radius: 40px 0;
   -webkit-transition: all .4s ease;
   transition: all .4s ease;
 }
 
-.service i {
-  position: absolute;
-  height: 110px;
-  width: 65px;
-  line-height: 107px;
-  font-size: 52px;
-  color: #E12573;
-  top: -15px;
-  left: 10px;
-}
-
-.service h2 {
-  padding: 10px 23px;
-  text-align: right;
-  font-size: 33px;
+.service .service-item h2 {
+  font-size: 30px;
   font-family: 'Droid Sans',sans-serif;
+  color: white;
+  padding: 10px 0px;
 }
 
-.service p {
-  padding: 0px 23px 20px 100px;
-  text-align: right;
-  margin-bottom: 20px;
+.service .service-item i {
+  width: 100%;
+  margin: 20px 0;
+  color: #533dcd;
+  background: #fff;
+  font-size: 52px;
+  line-height: 120px;
+  height: 130px;
 }
 
-.service a {
+.service .service-item p {
+  color: white;
+  padding: 0 0 30px;
+}
+
+.service .service-item a {
+  background: #482cdc;
+  border: 1px solid #816EE7;
+  margin: 10px 0 20px;
   padding: 15px 35px;
   color: white;
   border-radius: 40px;
 }
 
-.service-item {
-  position: relative;
+.service-item:hover {
+  border-radius: 0 40px;
   -webkit-transition: all .4s ease;
   transition: all .4s ease;
-  padding-bottom: 50px;
-}
-
-.service-item > * {
-  position: relative;
-  z-index: 2;
-}
-
-.service-item:before {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 0%;
-  height: 100%;
-  content: '';
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
-  z-index: 0;
-}
-
-.service-item:hover:before {
-  width: 100%;
-  background: #E12573;
-}
-
-.service-item:hover h2 {
-  color: white;
-}
-
-.service-item:hover p {
-  color: white;
-}
-
-.service-item:hover i {
-  color: white;
-}
-
-.service-item:hover a {
-  background: #e75290;
 }

@@ -71,6 +71,9 @@ margin-top: $space-x;
 .margin-top-16x{
     margin-top: $space-8x*2;
 }
+.paddingS-16x{
+    margin-top: $space-8x*2;
+}
 
 
 
@@ -96,8 +99,8 @@ margin-top: $space-x;
 
 
 
-.background-main{
-    background: $main-color;
+.background-main-d1{
+    background: $main-color-d1;
 }
 
 .background-main-d8{
@@ -111,6 +114,9 @@ margin-top: $space-x;
 }
 .background-main-d10{
     background:$main-color-d10;
+}
+.background-main-d11{
+    background:$main-color-d11;
 }
 .white-color{
     color:$white-color;

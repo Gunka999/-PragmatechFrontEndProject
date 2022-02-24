@@ -34,21 +34,21 @@ body{
         i{
     width: 130px;
     height: 130px;
-    line-height: 120px;
+    line-height: $space-12x*2;
     font-size: 52px;
-    margin: 20px;
-    color: #ff4343;
+    margin: $space-4x;
+    color: $main-color-d8;
     border: 1px solid #e5e5e5;
     border-radius: 100%;
-    box-shadow: 5px 5px 3px #ddd;
+    box-shadow: $space-x $space-x 3px #ddd;
         }
     h2{
-    padding: 15px 0;
+    padding: $space-3x 0;
     }
 
     p{
         color: #919191;
-        padding: 10px 40px;
+        padding: $space-2x 4$space-8x;
         @extend .font-size-3x;
         margin-bottom: $space-10x;
     }
@@ -101,9 +101,6 @@ body{
     }
 
     .service-item a:hover{
-            
-                background:darken(#ff4343, 25%)
-        
-    
+        background:darken($main-color-d8, 25%)
     }
 

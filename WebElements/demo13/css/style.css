@@ -129,6 +129,10 @@
   margin-top: 80px;
 }
 
+.paddingS-16x {
+  margin-top: 80px;
+}
+
 .text-align-center, .demo-title, .container .description {
   text-align: center;
 }
@@ -149,7 +153,7 @@
   font-size: 30px;
 }
 
-.background-main {
+.background-main-d1 {
   background: #FFA500;
 }
 
@@ -159,6 +163,18 @@
 
 .background-main-d13, .demo-title {
   background: #1CE6AE;
+}
+
+.background-main-d4 {
+  background: #E12573;
+}
+
+.background-main-d10 {
+  background: #816EE7;
+}
+
+.background-main-d11 {
+  background: #EE12A0;
 }
 
 .white-color {

@@ -27,42 +27,42 @@
     padding: $space-6x 0px;
     .service-item{
         @extend .background-main-d10;
-        padding-bottom: 50px;
+        padding-bottom: $space-10x;
         border: 2px solid $main-color-d10;
-        border-radius: 40px 0;
+        border-radius: $space-8x 0;
         transition: all .4s ease;
         h2{
-            font-size: 30px;
+            font-size: $space-6x;
             font-family: 'Droid Sans',sans-serif;
             color:$white-color;
-            padding: 10px 0px;
+            padding: $space-2x 0px;
         }
         i{
             width: 100%;
-            margin: 20px 0;
+            margin: $space-4x 0;
             color: #533dcd;
-            background: #fff;
+            background: $white-color;
             font-size: 52px;
             line-height: 120px;
             height: 130px;
         }
         p{
             color:$white-color;
-            padding: 0 0 30px;
+            padding: 0 0 $space-6x;
         }
         a{
             background: darken($main-color-d10 , 15%);
             border: 1px solid $main-color-d10;
-            margin: 10px 0 20px;
-            padding: 15px 35px;
-            color: white;
-            border-radius: 40px;
+            margin: $space-2x 0 $space42x;
+            padding: $space-3x $space-7x;
+            color: $white-color;
+            border-radius: $space-8x;
         }
     }
     
 }
 
 .service-item:hover{
-    border-radius: 0 40px;
+    border-radius: 0 $space-8x;
     transition: all .4s ease;
 }

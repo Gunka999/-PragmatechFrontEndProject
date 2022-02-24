@@ -129,6 +129,10 @@
   margin-top: 80px;
 }
 
+.paddingS-16x {
+  margin-top: 80px;
+}
+
 .text-align-center, .demo-title, .container .description, .service .service-item {
   text-align: center;
 }
@@ -149,12 +153,28 @@
   font-size: 30px;
 }
 
-.background-main, .demo-title {
+.background-main-d1, .demo-title {
   background: #FFA500;
 }
 
 .background-main-d8 {
   background: #FF4343;
+}
+
+.background-main-d13 {
+  background: #1CE6AE;
+}
+
+.background-main-d4 {
+  background: #E12573;
+}
+
+.background-main-d10 {
+  background: #816EE7;
+}
+
+.background-main-d11 {
+  background: #EE12A0;
 }
 
 .white-color {
@@ -215,7 +235,7 @@ p {
 }
 
 .service .service-item a {
-  background: orange;
+  background: #FFA500;
   padding: 15px 35px;
   color: white;
   border: 1px solid #FFA500;
@@ -256,7 +276,7 @@ p {
   content: '';
   -webkit-transition: all .4s ease;
   transition: all .4s ease;
-  background: orange;
+  background: #FFA500;
   z-index: 0;
 }
 

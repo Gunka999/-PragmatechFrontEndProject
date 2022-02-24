@@ -30,16 +30,16 @@
         i{
             position: absolute;
             height: 110px;
-            width: 65px;
+            width: $space-x*13;
             line-height: 107px;
             font-size: 52px;
             color:$main-color-d4;
             top: -15px;
-            left: 10px;
+            left: $space-2x;
 
         }
         h2{
-            padding: 10px 23px;
+            padding: $space-2x $space-5x;
             text-align: right;
             font-size: 33px;
             font-family: 'Droid Sans',sans-serif;
@@ -47,7 +47,7 @@
         p{
             padding: 0px 23px 20px 100px;
             text-align: right;
-            margin-bottom: 20px;
+            margin-bottom: $space-4x;
         }
         a{
             @extend .background-main-d4;
@@ -61,7 +61,7 @@
 .service-item{
     position: relative;
     transition: all .4s ease;
-    padding-bottom: 50px;
+    padding-bottom: $space-10x;
 
     > * {
         position: relative;
@@ -85,16 +85,16 @@
             background:$main-color-d4;
         }
         h2{
-            color:$white-color
+            color:$white-color;
         }
         p{
-            color:$white-color
+            color:$white-color;
         }
         i{
             color:$white-color;
         }
         a{
-            background:lighten($main-color-d4, 10%)
+            background:lighten($main-color-d4, 10%);
         }
        
     }

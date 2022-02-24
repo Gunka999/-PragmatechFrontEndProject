@@ -1,0 +1,108 @@
+.demo-title{
+    @extend .background-main-d13;
+    @extend .font-size-4x;
+    @extend .margin-0;
+    padding: $space-2x $space-3x;
+    color:$white-color;
+    @extend .text-align-center;
+}
+
+.container{
+    @extend .margin-top-16x;
+    @extend .margin-bottom-10x;
+    .description{
+        @extend .text-align-center;
+    }
+    h1{
+        @extend .font-size-6x;
+        font-family: 'Droid Sans',sans-serif;
+    }
+    p{
+        @extend .margin-top-2x;
+    }
+}
+
+.service{
+    background: $white-color;
+    margin: 0 $space-3x;
+    padding: $space-6x 0px;
+    
+    i{
+        position: absolute;
+        top: -26px;
+        left: -18px;
+        height: 110px;
+        width: 110px;
+        line-height: 107px;
+        font-size: 52px;
+        color: #fff;
+        border-radius: 100%;
+        background: #1ce6ae;
+        box-shadow: 0 0 0 10px #e9e9e9;
+    }
+    h2{
+        padding: 10px 0;
+        text-align: right;
+        font-size: 30px;
+        font-family: 'Droid Sans',sans-serif;
+    }
+    p{
+        padding: 20px 0 20px;
+        margin-bottom: 35px;
+        text-align: left;
+    }
+    a{
+        padding: $space-3x $space-7x;
+        color: $white-color;
+        border-radius: $space-8x;
+        margin: 10px 0 20px;
+        background: #1ce6ae;
+    }
+
+}
+
+.service-item{
+    position: relative;
+    overflow: hidden;
+    margin: $space-10x 0 $space-8x;
+    padding: $space-4x;
+    background: #eee;
+    padding-bottom: 45px;
+    > * {
+        position: relative;
+        z-index: 2;
+    }
+
+
+    &:after{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        transform: translateY(-100%) translateX(-100%);
+        background: #1ce6ae;
+        right: 0;
+        left: 0;
+        content: ''
+    }
+    &:hover {
+        &:after {
+            transform: translateY(0) translateX(0);
+            transition: all .4s ease;
+            background: #1ce6ae;
+        }
+        .service-item{
+            background:0 0;
+        }
+        p{
+            color:$white-color;
+        }
+        a{
+            background:darken(#1ce6ae, 10%);
+            color:$white-color;
+        }
+        h2{
+            color:$white-color;
+        }
+    }
+}
+

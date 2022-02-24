@@ -17,6 +17,9 @@
         @extend .font-size-6x;
         font-family: 'Droid Sans',sans-serif;
       }
+      p{
+        @extend .margin-top-2x;
+      }
     }
 }
 

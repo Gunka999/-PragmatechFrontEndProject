@@ -101,7 +101,7 @@
   margin-top: 5px;
 }
 
-.margin-top-2x {
+.margin-top-2x, .container .description p {
   margin-top: 10px;
 }
 

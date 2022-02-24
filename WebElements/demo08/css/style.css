@@ -275,3 +275,7 @@ body {
   -webkit-box-shadow: -5px 7px 3px #ddd;
           box-shadow: -5px 7px 3px #ddd;
 }
+
+.service-item a:hover {
+  background: #c30000;
+}

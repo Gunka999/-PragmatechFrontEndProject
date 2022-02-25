@@ -1,0 +1,43 @@
+// variables ucun sass fayli yaradib bunlari orda qeyd ederdim
+$main-color:#343a40;
+$white-color:white;
+$space-x: 5x;
+$space-2x: $space-x*2;
+$space-3x: $space-x*3;
+$space-4x: $space-x*4;
+
+// Ortax klaslar ucun sass fayli yaradib nav klasini ortaq kimi yazardim
+.nav{
+    display: flex;
+    align-items: center;   
+}
+.background-main-color{
+    background:$main-color;
+}
+.color-white{
+    color:$white-color;
+}
+.border-radius-4x{
+    border-radius: $space-4x;
+}
+
+// Ortaq klaslardan ve variableslerden istifade ederek kodlari yazardim
+.navbar_brand_nav{
+    @extend .nav;
+    ul {
+        @extend .nav;
+        li{
+        margin: 0 $space-2x;
+        }
+    }
+} 
+.navbar_user{
+    @extend .nav;
+    button{
+        @extend .background-main-color;
+        @extend .color-white;
+        padding: $space-2x $space-3x;
+        margin: 0 $space-x;
+        @extend .border-radius-4x;
+    }
+}

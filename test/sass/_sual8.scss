@@ -1,0 +1,63 @@
+// variables ucun sass fayli yaradib bunlari orda qeyd ederdim
+$main-color:#00427A;
+$white-color:white;
+$main-width:1200px;
+$space-x: 5x;
+$space-2x: $space-x*2;
+$space-3x: $space-x*3;
+$space-4x: $space-x*4;
+$space-5x: $space-x*5;
+$space-6x: $space-x*6;
+
+// Ortax klaslar ucun sass fayli yaradib nav klasini ortaq kimi yazardim
+.display-flex{
+    display: flex;  
+}
+.text-align-center{
+    text-align: center;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.border-radius-4x{
+    border-radius: $space-4x;
+}
+.margin-auto{
+    margin:0px auto;
+}
+.width{
+    width: $main-width;
+}
+.border-radius-50{
+    border-radius:50%;
+}
+
+.stat-container{
+    @extend .width;
+    @extend .margin-auto;
+    padding: $space-6x 0px;
+    @extend .display-flex; //bunu bir basa tagin icine elave ederdim klass kimi burda etmezdim
+    @extend .justify-content-between; //bunuda bir basa tagin icine klass kimi yazardim
+}
+
+.stat-item{
+    width: $main-width/4-10px;
+    padding: $space-4x $space-4x 0px $space-4x;
+    @extend .text-align-center; //bunu bir basa tagin icine elave ederdim klass kimi burda etmezdim
+    font-family:'Lucida Sans', sans-serif;
+}
+
+.stat-item div{
+    border: 1px solid $main-color;
+    width: 85px;
+    height: 85px;
+    @extend .border-radius-50;
+    @extend .display-flex; //bunu bir basa tagin icine elave ederdim klass kimi burda etmezdim
+    @extend .justify-content-between; //bunuda bir basa tagin icine klass kimi yazardim
+    @extend .text-align-center; //bunu bir basa tagin icine elave ederdim klass kimi burda etmezdim
+    @extend .margin-auto;
+    margin-bottom: $space-4x;
+    font-size: $space-6x+1;
+    font-weight: 700;
+    color: $main-color;
+}

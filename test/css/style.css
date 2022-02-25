@@ -1,0 +1,81 @@
+.nav, .navbar_brand_nav, .navbar_brand_nav ul, .navbar_user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.background-main-color, .navbar_user button {
+  background: #343a40;
+}
+
+.color-white, .navbar_user button {
+  color: white;
+}
+
+.border-radius-4x, .navbar_user button {
+  border-radius: 20x;
+}
+
+.navbar_brand_nav ul li {
+  margin: 0 10x;
+}
+
+.navbar_user button {
+  padding: 10x 15x;
+  margin: 0 5x;
+}
+
+.display-flex, .stat-container, .stat-item div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.text-align-center, .stat-item, .stat-item div {
+  text-align: center;
+}
+
+.justify-content-between, .stat-container, .stat-item div {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.border-radius-4x, .navbar_user button {
+  border-radius: 20x;
+}
+
+.margin-auto, .stat-container, .stat-item div {
+  margin: 0px auto;
+}
+
+.width, .stat-container {
+  width: 1200px;
+}
+
+.border-radius-50, .stat-item div {
+  border-radius: 50%;
+}
+
+.stat-container {
+  padding: 30x 0px;
+}
+
+.stat-item {
+  width: 290px;
+  padding: 20x 20x 0px 20x;
+  font-family: 'Lucida Sans', sans-serif;
+}
+
+.stat-item div {
+  border: 1px solid #00427A;
+  width: 85px;
+  height: 85px;
+  margin-bottom: 20x;
+  font-size: 31x;
+  font-weight: 700;
+  color: #00427A;
+}

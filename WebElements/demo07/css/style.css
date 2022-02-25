@@ -141,7 +141,7 @@
   font-size: 10px;
 }
 
-.font-size-3x {
+.font-size-3x, .service-item p {
   font-size: 15px;
 }
 
@@ -149,7 +149,7 @@
   font-size: 20px;
 }
 
-.font-size-6x, .container h1 {
+.font-size-6x, .container h1, .service-item h2 {
   font-size: 30px;
 }
 
@@ -165,7 +165,7 @@
   background: #1CE6AE;
 }
 
-.background-main-d4, .demo-title, .service a {
+.background-main-d4 {
   background: #E12573;
 }
 
@@ -181,7 +181,7 @@
   background: #C0DF19;
 }
 
-.background-main-d7 {
+.background-main-d7, .demo-title {
   background: #2E4B9B;
 }
 
@@ -217,83 +217,59 @@ p {
 }
 
 .service {
-  margin: 0 15px;
-  padding: 30px 0px;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
-}
-
-.service i {
-  position: absolute;
-  height: 110px;
-  width: 65px;
-  line-height: 107px;
-  font-size: 52px;
-  color: #E12573;
-  top: -15px;
-  left: 10px;
-}
-
-.service h2 {
-  padding: 10px 25px;
-  text-align: right;
-  font-size: 33px;
-  font-family: 'Droid Sans',sans-serif;
-}
-
-.service p {
-  padding: 0px 23px 20px 100px;
-  text-align: right;
-  margin-bottom: 20px;
-}
-
-.service a {
-  padding: 15px 35px;
-  color: white;
-  border-radius: 40px;
+  padding: 0 15px;
 }
 
 .service-item {
   position: relative;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
-  padding-bottom: 50px;
+  margin: 80px 0 40px;
+  padding: 80px 2px 74px;
 }
 
-.service-item > * {
+.service-item h2 {
+  padding: 0 0px 20px;
   position: relative;
   z-index: 2;
 }
 
-.service-item:before {
+.service-item p {
+  color: #919191;
+  padding: 0 40px;
+  margin-bottom: 50px;
+}
+
+.service-item a {
+  background: #2E4B9B;
+  border: 1px solid #2E4B9B;
+  margin: 10px 0 20px;
+  padding: 15px 35px;
+  color: white;
+}
+
+.service-item i {
   position: absolute;
-  bottom: 0;
+  top: 0;
   right: 0;
-  width: 0%;
-  height: 100%;
-  content: '';
+  z-index: 0;
+  font-size: 110px;
+  margin: 20px 0;
   -webkit-transition: all .4s ease;
   transition: all .4s ease;
-  z-index: 0;
-}
-
-.service-item:hover:before {
-  width: 100%;
-  background: #E12573;
-}
-
-.service-item:hover h2 {
-  color: white;
-}
-
-.service-item:hover p {
-  color: white;
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
+  color: #8AA9FF;
 }
 
 .service-item:hover i {
-  color: white;
+  left: 20px;
+  top: 0;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+  -webkit-transform: translateX(-35%);
+          transform: translateX(-35%);
 }
 
-.service-item:hover a {
-  background: #e75290;
+.service-item a:hover {
+  background: #8AA9FF;
+  border: 1px solid #8AA9FF;
 }

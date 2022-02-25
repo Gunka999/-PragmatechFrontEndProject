@@ -1,0 +1,77 @@
+.demo-title{
+    @extend .background-main-d7;
+    @extend .font-size-4x;
+    @extend .margin-0;
+    padding: $space-2x $space-3x;
+    color:$white-color;
+    @extend .text-align-center;
+}
+.container{
+    @extend .margin-top-16x;
+    @extend .margin-bottom-10x;
+    .description{
+        @extend .text-align-center;
+    }
+    h1{
+        @extend .font-size-6x;
+        font-family: 'Droid Sans',sans-serif;
+    }
+    p{
+        @extend .margin-top-2x;
+    }
+}
+
+
+.service{
+    padding: 0 $space-3x;
+}
+.service-item{
+    position: relative;
+    margin: $space-8x*2 0 $space-8x;
+    padding: $space-8x*2 2px 74px;
+    h2{
+        @extend .font-size-6x;
+        padding: 0 0px 20px;
+        position: relative;
+        z-index: 2;
+    }
+    p{
+        color: #919191;
+        padding: 0 40px;
+        @extend .font-size-3x;
+        margin-bottom: $space-10x;
+    }
+    a{
+        background: $main-color-d7;
+        border:1px solid $main-color-d7;
+        margin: $space-2x 0 $space-4x;
+        padding: $space-3x $space-7x;
+        color: $white-color;
+    }
+    i{
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 0;
+        font-size: 110px;
+        margin: 20px 0;
+        transition: all .4s ease;
+        transform: translateX(0%);
+        color: #8AA9FF;
+        // border-radius: 100%;
+    }
+}
+
+.service-item:hover{
+    i{
+        // transform: translateX(-100%);
+        left: 20px;
+        top: 0;        
+        transition: all .4s ease;
+        transform: translateX(-35%);
+    }
+}
+.service-item a:hover{
+        background:#8AA9FF;
+        border:1px solid #8AA9FF;
+}

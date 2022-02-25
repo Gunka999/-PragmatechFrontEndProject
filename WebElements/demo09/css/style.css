@@ -141,7 +141,7 @@
   font-size: 10px;
 }
 
-.font-size-3x {
+.font-size-3x, .service-item p {
   font-size: 15px;
 }
 
@@ -149,7 +149,7 @@
   font-size: 20px;
 }
 
-.font-size-6x, .container h1 {
+.font-size-6x, .container h1, .service-item h2 {
   font-size: 30px;
 }
 
@@ -165,7 +165,7 @@
   background: #1CE6AE;
 }
 
-.background-main-d4, .demo-title, .service a {
+.background-main-d4 {
   background: #E12573;
 }
 
@@ -177,7 +177,7 @@
   background: #EE12A0;
 }
 
-.background-main-d9 {
+.background-main-d9, .demo-title {
   background: #C0DF19;
 }
 
@@ -217,83 +217,60 @@ p {
 }
 
 .service {
-  margin: 0 15px;
-  padding: 30px 0px;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  padding: 0 15px;
 }
 
-.service i {
-  position: absolute;
-  height: 110px;
-  width: 65px;
-  line-height: 107px;
-  font-size: 52px;
-  color: #E12573;
-  top: -15px;
-  left: 10px;
+.service-item {
+  position: relative;
+  border: 1px solid #C0DF19;
+  margin: 80px 0 40px;
+  padding: 80px 2px 74px;
+  border: 1px solid #C0DF19;
+  background: #F4FFB9;
 }
 
-.service h2 {
-  padding: 10px 25px;
-  text-align: right;
-  font-size: 33px;
-  font-family: 'Droid Sans',sans-serif;
+.service-item h2 {
+  padding: 20px 0px;
 }
 
-.service p {
-  padding: 0px 23px 20px 100px;
-  text-align: right;
-  margin-bottom: 20px;
+.service-item p {
+  color: #919191;
+  padding: 0 40px;
+  margin-bottom: 50px;
 }
 
-.service a {
+.service-item a {
+  background: #C0DF19;
+  border: 1px solid #C0DF19;
+  margin: 10px 0 20px;
   padding: 15px 35px;
   color: white;
   border-radius: 40px;
 }
 
-.service-item {
-  position: relative;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
-  padding-bottom: 50px;
-}
-
-.service-item > * {
-  position: relative;
-  z-index: 2;
-}
-
-.service-item:before {
+.service-item i {
   position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 0%;
-  height: 100%;
-  content: '';
+  top: -90px;
+  left: 50%;
+  height: 130px;
+  width: 130px;
+  line-height: 120px;
+  font-size: 52px;
+  margin: 20px 0;
   -webkit-transition: all .4s ease;
   transition: all .4s ease;
-  z-index: 0;
-}
-
-.service-item:hover:before {
-  width: 100%;
-  background: #E12573;
-}
-
-.service-item:hover h2 {
-  color: white;
-}
-
-.service-item:hover p {
-  color: white;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  color: #C0DF19;
+  border-radius: 100%;
+  background: white;
 }
 
 .service-item:hover i {
+  background: #C0DF19;
   color: white;
 }
 
-.service-item:hover a {
-  background: #e75290;
+.service-item a:hover {
+  background: #859a11;
 }

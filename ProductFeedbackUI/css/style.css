@@ -90,12 +90,16 @@ table {
   height: 100px;
 }
 
-.height-30x {
+.height-30x, .empty-comment img {
   height: 150px;
 }
 
-.height-40x, .feadback-board, .suggestions-board-feadback, .white-board, .suggestions-board-chip, .suggestions-board-rodmap, .suggestions-list-board {
+.height-40x {
   height: 200px;
+}
+
+.width-30x, .empty-comment img {
+  width: 150px;
 }
 
 .mt-1 {
@@ -496,7 +500,7 @@ table {
   display: flex;
 }
 
-.display-inline-block, .suggestions-board-chip a, .suggestions-list-board-subject a {
+.display-inline-block, .suggestions-board-chip a, .suggestions-list-board-subject a, .empty-comment a {
   display: inline-block;
 }
 
@@ -578,11 +582,15 @@ table {
           align-items: center;
 }
 
+.text-align-center, .empty-comment {
+  text-align: center;
+}
+
 .color-white, .suggestions-board-feadback h1, .suggestions-board-feadback p {
   color: #FFFFFF;
 }
 
-.font-weight-300, .suggestions-list .sl-bar-x div .sorting, .suggestions-list-board-subject p {
+.font-weight-300, .suggestions-list .sl-bar-x div .sorting, .suggestions-list-board-subject p, .empty-comment p {
   font-weight: 300;
 }
 
@@ -594,7 +602,7 @@ table {
   font-weight: 600;
 }
 
-.font-weight-700, .suggestions-board-feadback h1, .suggestions-board-rodmap .sb-rodmap-view h1, .suggestions-board-rodmap .sb-rodmap-status-number-list, .suggestions-list .sl-bar-x div span, .suggestions-list .sl-bar-x div .sorting span, .suggestions-list .sl-bar-x div a, .suggestions-list-board-subject h1 {
+.font-weight-700, .suggestions-board-feadback h1, .suggestions-board-rodmap .sb-rodmap-view h1, .suggestions-board-rodmap .sb-rodmap-status-number-list, .suggestions-list .sl-bar-x div span, .suggestions-list .sl-bar-x div .sorting span, .suggestions-list .sl-bar-x div a, .suggestions-list-board-subject h1, .empty-comment h1, .empty-comment a {
   font-weight: 700;
 }
 
@@ -606,7 +614,7 @@ table {
   font-size: 10px;
 }
 
-.font-size-3x, .suggestions-board-feadback p, .suggestions-board-rodmap .sb-rodmap-view a, .suggestions-board-rodmap .sb-rodmap-status-list, .suggestions-board-rodmap .sb-rodmap-status-number-list, .suggestions-list .sl-bar-x div .sorting, .suggestions-list .sl-bar-x div .sorting span, .suggestions-list .sl-bar-x div a, .suggestions-list-board-subject p, .suggestions-list-board-subject a, .suggestions-list-board-comment-number h1 {
+.font-size-3x, .suggestions-board-feadback p, .suggestions-board-rodmap .sb-rodmap-view a, .suggestions-board-rodmap .sb-rodmap-status-list, .suggestions-board-rodmap .sb-rodmap-status-number-list, .suggestions-list .sl-bar-x div .sorting, .suggestions-list .sl-bar-x div .sorting span, .suggestions-list .sl-bar-x div a, .suggestions-list-board-subject p, .suggestions-list-board-subject a, .suggestions-list-board-comment-number h1, .empty-comment p, .empty-comment a {
   font-size: 15px;
 }
 
@@ -614,7 +622,7 @@ table {
   font-size: 20px;
 }
 
-.font-size-5x {
+.font-size-5x, .empty-comment h1 {
   font-size: 25px;
 }
 
@@ -630,11 +638,11 @@ table {
   line-height: 15px;
 }
 
-.line-height-4x, .suggestions-board-rodmap .sb-rodmap-view a, .suggestions-board-rodmap .sb-rodmap-status-list, .suggestions-board-rodmap .sb-rodmap-status-number-list, .suggestions-list .sl-bar-x div a, .suggestions-list-board-subject a, .suggestions-list-board-comment-number h1 {
+.line-height-4x, .suggestions-board-rodmap .sb-rodmap-view a, .suggestions-board-rodmap .sb-rodmap-status-list, .suggestions-board-rodmap .sb-rodmap-status-number-list, .suggestions-list .sl-bar-x div a, .suggestions-list-board-subject a, .suggestions-list-board-comment-number h1, .empty-comment a {
   line-height: 20px;
 }
 
-.line-height-5x, .suggestions-board-feadback p, .suggestions-board-rodmap .sb-rodmap-view h1, .suggestions-list .sl-bar-x div span, .suggestions-list-board-subject p {
+.line-height-5x, .suggestions-board-feadback p, .suggestions-board-rodmap .sb-rodmap-view h1, .suggestions-list .sl-bar-x div span, .suggestions-list-board-subject p, .empty-comment p {
   line-height: 25px;
 }
 
@@ -642,7 +650,11 @@ table {
   line-height: 30px;
 }
 
-.button-electric-purple, .suggestions-list .sl-bar-x div a {
+.line-height-7x, .empty-comment h1 {
+  line-height: 35px;
+}
+
+.button-electric-purple, .suggestions-list .sl-bar-x div a, .empty-comment a {
   background: #AD1FEA;
   border-radius: 10px;
 }
@@ -652,7 +664,7 @@ table {
   border-radius: 10px;
 }
 
-.button-white, .white-board, .suggestions-board-chip, .suggestions-board-rodmap, .suggestions-list-board {
+.button-white, .white-board, .suggestions-board-chip, .suggestions-board-rodmap, .suggestions-list-board, .empty-comment {
   background: #FFFFFF;
   border-radius: 10px;
 }
@@ -770,4 +782,27 @@ body {
 .suggestions-list-board-comment-number h1 {
   font-family: Jost;
   color: #3A4374;
+}
+
+.empty-comment {
+  margin-bottom: 100px;
+}
+
+.empty-comment img {
+  margin-top: 100px;
+}
+
+.empty-comment h1 {
+  font-family: Jost;
+  color: #3A4374;
+}
+
+.empty-comment p {
+  font-family: Jost;
+  color: #647196;
+}
+
+.empty-comment a {
+  padding: 15px 25px;
+  color: #FFFFFF;
 }

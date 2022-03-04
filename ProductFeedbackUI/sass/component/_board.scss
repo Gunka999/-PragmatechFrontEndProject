@@ -1,5 +1,5 @@
 .feadback-board{
-   @extend .height-40x;
+   // @extend .height-40x;
    @extend .button-gradient;
    @extend .flex;
    @extend .flex-direction-colum;
@@ -8,5 +8,5 @@
 
 .white-board{
    @extend .button-white;
-   @extend .height-40x;
+   // @extend .height-40x;
 }

@@ -94,7 +94,7 @@ table {
   height: 150px;
 }
 
-.height-40x, .feadback-board, .suggestions-board-feadback, .white-board, .suggestions-board-chip, .suggestions-board-rodmap {
+.height-40x, .feadback-board, .suggestions-board-feadback, .white-board, .suggestions-board-chip, .suggestions-board-rodmap, .suggestions-list-board {
   height: 200px;
 }
 
@@ -486,7 +486,7 @@ table {
           justify-content: space-between;
 }
 
-.flex, .feadback-board, .suggestions-board-feadback, .suggestions-board-rodmap .sb-rodmap-view, .suggestions-board-rodmap .sb-rodmap-status, .suggestions-board-rodmap .sb-rodmap-status-circle-list, .suggestions-list .sl-bar-x {
+.flex, .feadback-board, .suggestions-board-feadback, .suggestions-board-rodmap .sb-rodmap-view, .suggestions-board-rodmap .sb-rodmap-status, .suggestions-board-rodmap .sb-rodmap-status-circle-list, .suggestions-list .sl-bar-x, .suggestions-list-board-chip a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -496,7 +496,7 @@ table {
   display: inline-block;
 }
 
-.flex-direction-colum, .feadback-board, .suggestions-board-feadback, .suggestions-board-rodmap .sb-rodmap-status-circle-list {
+.flex-direction-colum, .feadback-board, .suggestions-board-feadback, .suggestions-board-rodmap .sb-rodmap-status-circle-list, .suggestions-list-board-chip a {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -568,7 +568,7 @@ table {
   width: calc((100%/12)*12);
 }
 
-.align-items-center, .suggestions-list .sl-bar-x {
+.align-items-center, .suggestions-list .sl-bar-x, .suggestions-list-board-chip a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -648,7 +648,7 @@ table {
   border-radius: 10px;
 }
 
-.button-white, .white-board, .suggestions-board-chip, .suggestions-board-rodmap {
+.button-white, .white-board, .suggestions-board-chip, .suggestions-board-rodmap, .suggestions-list-board {
   background: #FFFFFF;
   border-radius: 10px;
 }
@@ -658,7 +658,7 @@ table {
   border-radius: 10px;
 }
 
-.chip-default, .suggestions-board-chip a {
+.chip-default, .suggestions-board-chip a, .suggestions-list-board-chip a {
   background: #F2F4FF;
   border-radius: 10px;
   color: #4661E6;
@@ -733,4 +733,9 @@ body {
 
 .suggestions-list .sl-bar-x div a {
   padding: 15px 25px;
+}
+
+.suggestions-list-board-chip a {
+  cursor: pointer;
+  color: #3A4374;
 }

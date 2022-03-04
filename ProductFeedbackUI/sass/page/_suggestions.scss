@@ -129,6 +129,20 @@ body{
          }
 
       }
+      &-board{
+         @extend .white-board;
+         &-chip{
+            a{
+               cursor: pointer;
+               @extend .chip-default;
+               @extend .flex;
+               @extend .flex-direction-colum;
+               @extend .align-items-center;
+               color: $rhino-color;
+            }
+         }
+      }
    }
+
    
 }

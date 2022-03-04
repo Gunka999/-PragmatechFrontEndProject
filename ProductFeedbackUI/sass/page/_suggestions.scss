@@ -1,0 +1,134 @@
+body{
+   background:$main-color;
+}
+.suggestions{
+   &-board{
+      &-feadback{
+         @extend .feadback-board;
+         h1{
+            @extend .color-white;
+            @extend .font-size-4x;
+            @extend .line-height-6x;
+            @extend .font-weight-700;
+         }
+         p{
+            @extend .color-white;
+            @extend .font-size-3x;
+            @extend .line-height-5x;
+            @extend .font-weight-500;
+         }
+      }
+   &-chip{
+      @extend .white-board;
+      a{
+         cursor: pointer;
+         @extend .chip-default;
+         @extend .display-inline-block;
+         &:hover{
+            @extend .chip-hover; 
+         }
+         &:active{
+            @extend .chip-active;
+         }
+      }
+   }
+   &-rodmap{
+      @extend .white-board;
+      .sb-rodmap-view{
+         @extend .flex;
+         @extend .justify-content-between;
+         h1{
+            @extend .font-weight-700;
+            @extend .font-size-4x;
+            @extend .line-height-5x;
+            color: $rhino-color;
+         }
+         a{
+            @extend .font-weight-600;
+            @extend .font-size-3x;
+            @extend .line-height-4x;
+            text-decoration-line: underline;
+            color: $ultramarine-blue-color;
+         }
+
+      }
+      .sb-rodmap-status{
+         @extend .flex;
+         @extend .justify-content-between;
+         &-circle-list{
+            @extend .flex;
+            @extend .flex-direction-colum;
+            .circle-blush{
+               background: $blush-color;
+               @extend .circle-measure;
+               border-radius: 100%;
+            }
+            .circle-electric-purple{
+               background: $electric-purple-color;
+               @extend .circle-measure;
+               border-radius: 100%; 
+            }
+            .circle-crystal-blue{
+               background: $crystal-blue;
+               @extend .circle-measure;
+               border-radius: 100%;
+            }
+         }
+         &-list{
+
+            @extend .font-size-3x;
+            @extend .line-height-4x;
+            color: $waikawa-grey-color;
+         }
+         &-number-list{
+            @extend .font-size-3x;
+            @extend .line-height-4x;
+            color: $waikawa-grey-color;
+            @extend .font-weight-700;
+         }
+      }
+   }
+
+   }
+   &-list{
+      .sl-bar-x{
+         @extend .bar-x;
+         @extend .flex;
+         @extend .align-items-center;
+         @extend .justify-content-between;
+         div{
+            span{
+               font-family: Jost;
+               @extend .font-weight-700;
+               @extend .font-size-4x;
+               @extend .line-height-5x;
+               color: $white-color;
+               i{
+                  color: $white-color;
+               }
+   
+            }
+            .sorting{
+               font-family: Jost;
+               @extend .font-weight-300;
+               @extend .font-size-3x;
+               color: $catskill-white;
+               span{
+                  @extend .font-weight-700;
+                  @extend .font-size-3x;
+               }
+
+            }
+         }
+         div{
+            a{
+               @extend .button-electric-purple;
+               padding: $space-3x $space-5x;
+               
+            }
+         }
+
+      }
+   }
+   
+}

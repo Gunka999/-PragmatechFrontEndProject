@@ -14,7 +14,7 @@
 
 @for $i from 1 through 12 {
     .col-#{$i} {
-      widh: calc((100/12)*#{$i})
+      width: calc((100%/12)*#{$i})
     }
   }
 

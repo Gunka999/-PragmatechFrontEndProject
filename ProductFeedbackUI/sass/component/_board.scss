@@ -1,0 +1,12 @@
+.feadback-board{
+   @extend .height-40x;
+   @extend .button-gradient;
+   @extend .flex;
+   @extend .flex-direction-colum;
+   @extend .justify-content-fend;
+}
+
+.white-board{
+   @extend .button-white;
+   @extend .height-40x;
+}

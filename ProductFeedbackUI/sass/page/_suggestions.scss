@@ -176,7 +176,7 @@ body{
                @extend .font-size-3x;
                @extend .line-height-4x;
                color: $ultramarine-blue-color;
-               padding: $space-x $space-3x;
+               padding: $space-2x $space-4x;
                @extend .display-inline-block;
                &:hover{
                   @extend .chip-hover; 

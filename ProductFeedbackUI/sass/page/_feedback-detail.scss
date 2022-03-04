@@ -1,0 +1,29 @@
+.transparent-bar{
+   @extend .flex;
+   @extend .justify-content-between;
+   &-back{
+      @extend .flex;
+      i{
+         color: $ultramarine-blue-color;
+         margin-top: 3px;
+      }
+      h1{
+         font-family: Jost;
+         @extend .font-weight-700;
+         @extend .font-size-3x;
+         @extend .line-height-4x;
+         color: $waikawa-grey-color;
+      }
+   }
+   
+   a{
+         @extend .button-ultramarine-blue;
+         padding: $space-3x $space-5x;
+         color:$catskill-white;
+         @extend .font-weight-700;
+         @extend .font-size-3x;
+         @extend .line-height-4x;
+         font-family: Jost;
+         
+   }
+}

@@ -1,7 +1,11 @@
 .bar-x{
-   @extend .height-16x;;
+   @extend .height-16x;
    @extend .button-rhino-blue;
 }
+.bar-transparent-x{
+   @extend .height-16x;
+}
+
 .bar-2x{
 
 }

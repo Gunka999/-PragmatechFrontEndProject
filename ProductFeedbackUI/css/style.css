@@ -462,6 +462,10 @@ table {
   margin-top: 100px !important;
 }
 
+.pt-16 {
+  padding-top: 80px;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -486,13 +490,13 @@ table {
           justify-content: space-between;
 }
 
-.flex, .feadback-board, .suggestions-board-feadback, .suggestions-board-rodmap .sb-rodmap-view, .suggestions-board-rodmap .sb-rodmap-status, .suggestions-board-rodmap .sb-rodmap-status-circle-list, .suggestions-list .sl-bar-x, .suggestions-list-board-chip a {
+.flex, .feadback-board, .suggestions-board-feadback, .suggestions-board-rodmap .sb-rodmap-view, .suggestions-board-rodmap .sb-rodmap-status, .suggestions-board-rodmap .sb-rodmap-status-circle-list, .suggestions-list .sl-bar-x, .suggestions-list-board, .suggestions-list-board-chip a, .suggestions-list-board-comment-number {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.display-inline-block, .suggestions-board-chip a {
+.display-inline-block, .suggestions-board-chip a, .suggestions-list-board-subject a {
   display: inline-block;
 }
 
@@ -509,7 +513,7 @@ table {
           justify-content: flex-end;
 }
 
-.justify-content-between, .suggestions-board-rodmap .sb-rodmap-view, .suggestions-board-rodmap .sb-rodmap-status, .suggestions-list .sl-bar-x {
+.justify-content-between, .suggestions-board-rodmap .sb-rodmap-view, .suggestions-board-rodmap .sb-rodmap-status, .suggestions-list .sl-bar-x, .suggestions-list-board, .suggestions-list-board-comment-number {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -578,7 +582,7 @@ table {
   color: #FFFFFF;
 }
 
-.font-weight-300, .suggestions-list .sl-bar-x div .sorting {
+.font-weight-300, .suggestions-list .sl-bar-x div .sorting, .suggestions-list-board-subject p {
   font-weight: 300;
 }
 
@@ -586,11 +590,11 @@ table {
   font-weight: 500;
 }
 
-.font-weight-600, .suggestions-board-rodmap .sb-rodmap-view a {
+.font-weight-600, .suggestions-board-rodmap .sb-rodmap-view a, .suggestions-list-board-subject a, .suggestions-list-board-comment-number h1 {
   font-weight: 600;
 }
 
-.font-weight-700, .suggestions-board-feadback h1, .suggestions-board-rodmap .sb-rodmap-view h1, .suggestions-board-rodmap .sb-rodmap-status-number-list, .suggestions-list .sl-bar-x div span, .suggestions-list .sl-bar-x div .sorting span {
+.font-weight-700, .suggestions-board-feadback h1, .suggestions-board-rodmap .sb-rodmap-view h1, .suggestions-board-rodmap .sb-rodmap-status-number-list, .suggestions-list .sl-bar-x div span, .suggestions-list .sl-bar-x div .sorting span, .suggestions-list .sl-bar-x div a, .suggestions-list-board-subject h1 {
   font-weight: 700;
 }
 
@@ -602,11 +606,11 @@ table {
   font-size: 10px;
 }
 
-.font-size-3x, .suggestions-board-feadback p, .suggestions-board-rodmap .sb-rodmap-view a, .suggestions-board-rodmap .sb-rodmap-status-list, .suggestions-board-rodmap .sb-rodmap-status-number-list, .suggestions-list .sl-bar-x div .sorting, .suggestions-list .sl-bar-x div .sorting span {
+.font-size-3x, .suggestions-board-feadback p, .suggestions-board-rodmap .sb-rodmap-view a, .suggestions-board-rodmap .sb-rodmap-status-list, .suggestions-board-rodmap .sb-rodmap-status-number-list, .suggestions-list .sl-bar-x div .sorting, .suggestions-list .sl-bar-x div .sorting span, .suggestions-list .sl-bar-x div a, .suggestions-list-board-subject p, .suggestions-list-board-subject a, .suggestions-list-board-comment-number h1 {
   font-size: 15px;
 }
 
-.font-size-4x, .suggestions-board-feadback h1, .suggestions-board-rodmap .sb-rodmap-view h1, .suggestions-list .sl-bar-x div span {
+.font-size-4x, .suggestions-board-feadback h1, .suggestions-board-rodmap .sb-rodmap-view h1, .suggestions-list .sl-bar-x div span, .suggestions-list-board-subject h1 {
   font-size: 20px;
 }
 
@@ -626,11 +630,11 @@ table {
   line-height: 15px;
 }
 
-.line-height-4x, .suggestions-board-rodmap .sb-rodmap-view a, .suggestions-board-rodmap .sb-rodmap-status-list, .suggestions-board-rodmap .sb-rodmap-status-number-list {
+.line-height-4x, .suggestions-board-rodmap .sb-rodmap-view a, .suggestions-board-rodmap .sb-rodmap-status-list, .suggestions-board-rodmap .sb-rodmap-status-number-list, .suggestions-list .sl-bar-x div a, .suggestions-list-board-subject a, .suggestions-list-board-comment-number h1 {
   line-height: 20px;
 }
 
-.line-height-5x, .suggestions-board-feadback p, .suggestions-board-rodmap .sb-rodmap-view h1, .suggestions-list .sl-bar-x div span {
+.line-height-5x, .suggestions-board-feadback p, .suggestions-board-rodmap .sb-rodmap-view h1, .suggestions-list .sl-bar-x div span, .suggestions-list-board-subject p {
   line-height: 25px;
 }
 
@@ -658,19 +662,19 @@ table {
   border-radius: 10px;
 }
 
-.chip-default, .suggestions-board-chip a, .suggestions-list-board-chip a {
+.chip-default, .suggestions-board-chip a, .suggestions-list-board-chip a, .suggestions-list-board-subject a {
   background: #F2F4FF;
   border-radius: 10px;
   color: #4661E6;
 }
 
-.chip-hover, .suggestions-board-chip a:hover {
+.chip-hover, .suggestions-board-chip a:hover, .suggestions-list-board-chip a:hover, .suggestions-list-board-subject a:hover {
   background: #CFD7FF;
   border-radius: 10px;
   color: #4661E6;
 }
 
-.chip-active, .suggestions-board-chip a:active {
+.chip-active, .suggestions-board-chip a:active, .suggestions-list-board-chip a:active, .suggestions-list-board-subject a:active {
   background: #4661E6;
   border-radius: 10px;
   color: #FFFFFF;
@@ -733,9 +737,37 @@ body {
 
 .suggestions-list .sl-bar-x div a {
   padding: 15px 25px;
+  color: #FFFFFF;
 }
 
 .suggestions-list-board-chip a {
   cursor: pointer;
+  color: #3A4374;
+}
+
+.suggestions-list-board-subject h1 {
+  font-family: Jost;
+  color: #3A4374;
+}
+
+.suggestions-list-board-subject p {
+  font-family: Jost;
+  color: #647196;
+}
+
+.suggestions-list-board-subject a {
+  cursor: pointer;
+  font-family: Jost;
+  color: #4661E6;
+  padding: 5px 15px;
+}
+
+.suggestions-list-board-comment-number i {
+  color: #CDD2EE;
+  margin-top: 3px;
+}
+
+.suggestions-list-board-comment-number h1 {
+  font-family: Jost;
   color: #3A4374;
 }

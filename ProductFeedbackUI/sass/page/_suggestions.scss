@@ -124,6 +124,10 @@ body{
             a{
                @extend .button-electric-purple;
                padding: $space-3x $space-5x;
+               color:$white-color;
+               @extend .font-weight-700;
+               @extend .font-size-3x;
+               @extend .line-height-4x;
                
             }
          }
@@ -131,6 +135,8 @@ body{
       }
       &-board{
          @extend .white-board;
+         @extend .flex;
+         @extend .justify-content-between;
          &-chip{
             a{
                cursor: pointer;
@@ -138,6 +144,60 @@ body{
                @extend .flex;
                @extend .flex-direction-colum;
                @extend .align-items-center;
+               color: $rhino-color;
+               &:hover{
+                  @extend .chip-hover; 
+               }
+               &:active{
+                  @extend .chip-active;
+               }
+            }
+         }
+         &-subject{
+            h1{
+               font-family: Jost;
+               @extend .font-weight-700;
+               @extend .font-size-4x;
+               color: $rhino-color;;
+            }
+            p{
+               font-family: Jost;
+               @extend .font-weight-300;
+               @extend .font-size-3x;
+               @extend .line-height-5x;
+               color: $waikawa-grey-color;
+
+            }
+            a{
+               cursor: pointer;
+               @extend .chip-default;
+               font-family: Jost;
+               @extend .font-weight-600;
+               @extend .font-size-3x;
+               @extend .line-height-4x;
+               color: $ultramarine-blue-color;
+               padding: $space-x $space-3x;
+               @extend .display-inline-block;
+               &:hover{
+                  @extend .chip-hover; 
+               }
+               &:active{
+                  @extend .chip-active;
+               }
+            }
+         }
+         &-comment-number{
+            @extend .flex;
+            @extend .justify-content-between;
+            i{
+               color: $moonraker-color;
+               margin-top: 3px;
+            }
+            h1{
+               font-family: Jost;
+               @extend .font-weight-600;
+               @extend .font-size-3x;
+               @extend .line-height-4x;
                color: $rhino-color;
             }
          }

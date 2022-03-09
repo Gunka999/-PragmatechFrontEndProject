@@ -11,7 +11,6 @@
       @extend .pl-7;
       div{
          @extend .flex;
-         @extend .justify-content-between;
          @extend .mb-1;
          h1{
             font-family: Jost;
@@ -25,8 +24,23 @@
             @extend .pr-3;
          }
       }
+      h1{
+         font-family: Jost;
+         @extend .font-weight-700;
+         @extend .font-size-5x;
+         @extend .line-height-7x;
+         @extend .color-white;
+      }
    }
    .bar-2x-button{
+      @extend .flex;
+      @extend .align-items-center;
+      @extend .pr-8;
+      a{
+         @extend .background-electric-purple-color;
+         @extend .border-radius-2x;
+         padding: $space-3x $space-5x;
+      }
 
    }
 }

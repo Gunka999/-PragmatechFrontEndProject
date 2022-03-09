@@ -81,7 +81,7 @@ table {
 }
 
 .container {
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -95,92 +95,164 @@ table {
 }
 
 .col-1 {
-  width: calc((100%/12)*1);
+  width: calc((100%/12)*1) !important;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .col-2 {
-  width: calc((100%/12)*2);
+  width: calc((100%/12)*2) !important;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .col-3 {
-  width: calc((100%/12)*3);
+  width: calc((100%/12)*3) !important;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .col-4 {
-  width: calc((100%/12)*4);
+  width: calc((100%/12)*4) !important;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .col-5 {
-  width: calc((100%/12)*5);
+  width: calc((100%/12)*5) !important;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .col-6 {
-  width: calc((100%/12)*6);
+  width: calc((100%/12)*6) !important;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .col-7 {
-  width: calc((100%/12)*7);
+  width: calc((100%/12)*7) !important;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .col-8 {
-  width: calc((100%/12)*8);
+  width: calc((100%/12)*8) !important;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .col-9 {
-  width: calc((100%/12)*9);
+  width: calc((100%/12)*9) !important;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .col-10 {
-  width: calc((100%/12)*10);
+  width: calc((100%/12)*10) !important;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .col-11 {
-  width: calc((100%/12)*11);
+  width: calc((100%/12)*11) !important;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .col-12 {
-  width: calc((100%/12)*12);
+  width: calc((100%/12)*12) !important;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 @media (max-width: 576px) {
   .container {
     width: 100%;
   }
-  .col-xs1 {
-    width: calc((100%/12)*1);
+  .col-xs-1 {
+    width: calc((100%/12)*1) !important;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
-  .col-xs2 {
-    width: calc((100%/12)*2);
+  .col-xs-2 {
+    width: calc((100%/12)*2) !important;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
-  .col-xs3 {
-    width: calc((100%/12)*3);
+  .col-xs-3 {
+    width: calc((100%/12)*3) !important;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
-  .col-xs4 {
-    width: calc((100%/12)*4);
+  .col-xs-4 {
+    width: calc((100%/12)*4) !important;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
-  .col-xs5 {
-    width: calc((100%/12)*5);
+  .col-xs-5 {
+    width: calc((100%/12)*5) !important;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
-  .col-xs6 {
-    width: calc((100%/12)*6);
+  .col-xs-6 {
+    width: calc((100%/12)*6) !important;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
-  .col-xs7 {
-    width: calc((100%/12)*7);
+  .col-xs-7 {
+    width: calc((100%/12)*7) !important;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
-  .col-xs8 {
-    width: calc((100%/12)*8);
+  .col-xs-8 {
+    width: calc((100%/12)*8) !important;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
-  .col-xs9 {
-    width: calc((100%/12)*9);
+  .col-xs-9 {
+    width: calc((100%/12)*9) !important;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
-  .col-xs10 {
-    width: calc((100%/12)*10);
+  .col-xs-10 {
+    width: calc((100%/12)*10) !important;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
-  .col-xs11 {
-    width: calc((100%/12)*11);
+  .col-xs-11 {
+    width: calc((100%/12)*11) !important;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
-  .col-xs12 {
-    width: calc((100%/12)*12);
+  .col-xs-12 {
+    width: calc((100%/12)*12) !important;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
 }
 
@@ -189,40 +261,76 @@ table {
     width: 100%;
   }
   .col-sm1 {
-    width: calc((100%/12)*1);
+    width: calc((100%/12)*1) !important;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
   .col-sm2 {
-    width: calc((100%/12)*2);
+    width: calc((100%/12)*2) !important;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
   .col-sm3 {
-    width: calc((100%/12)*3);
+    width: calc((100%/12)*3) !important;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
   .col-sm4 {
-    width: calc((100%/12)*4);
+    width: calc((100%/12)*4) !important;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
   .col-sm5 {
-    width: calc((100%/12)*5);
+    width: calc((100%/12)*5) !important;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
   .col-sm6 {
-    width: calc((100%/12)*6);
+    width: calc((100%/12)*6) !important;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
   .col-sm7 {
-    width: calc((100%/12)*7);
+    width: calc((100%/12)*7) !important;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
   .col-sm8 {
-    width: calc((100%/12)*8);
+    width: calc((100%/12)*8) !important;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
   .col-sm9 {
-    width: calc((100%/12)*9);
+    width: calc((100%/12)*9) !important;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
   .col-sm10 {
-    width: calc((100%/12)*10);
+    width: calc((100%/12)*10) !important;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
   .col-sm11 {
-    width: calc((100%/12)*11);
+    width: calc((100%/12)*11) !important;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
   .col-sm12 {
-    width: calc((100%/12)*12);
+    width: calc((100%/12)*12) !important;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
 }
 
@@ -231,40 +339,76 @@ table {
     width: 100%;
   }
   .col-md1 {
-    width: calc((100%/12)*1);
+    width: calc((100%/12)*1) !important;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
   .col-md2 {
-    width: calc((100%/12)*2);
+    width: calc((100%/12)*2) !important;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
   .col-md3 {
-    width: calc((100%/12)*3);
+    width: calc((100%/12)*3) !important;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
   .col-md4 {
-    width: calc((100%/12)*4);
+    width: calc((100%/12)*4) !important;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
   .col-md5 {
-    width: calc((100%/12)*5);
+    width: calc((100%/12)*5) !important;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
   .col-md6 {
-    width: calc((100%/12)*6);
+    width: calc((100%/12)*6) !important;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
   .col-md7 {
-    width: calc((100%/12)*7);
+    width: calc((100%/12)*7) !important;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
   .col-md8 {
-    width: calc((100%/12)*8);
+    width: calc((100%/12)*8) !important;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
   .col-md9 {
-    width: calc((100%/12)*9);
+    width: calc((100%/12)*9) !important;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
   .col-md10 {
-    width: calc((100%/12)*10);
+    width: calc((100%/12)*10) !important;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
   .col-md11 {
-    width: calc((100%/12)*11);
+    width: calc((100%/12)*11) !important;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
   .col-md12 {
-    width: calc((100%/12)*12);
+    width: calc((100%/12)*12) !important;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
 }
 
@@ -273,50 +417,86 @@ table {
     width: 100%;
   }
   .col-lg1 {
-    width: calc((100%/12)*1);
+    width: calc((100%/12)*1) !important;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
   .col-lg2 {
-    width: calc((100%/12)*2);
+    width: calc((100%/12)*2) !important;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
   .col-lg3 {
-    width: calc((100%/12)*3);
+    width: calc((100%/12)*3) !important;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
   .col-lg4 {
-    width: calc((100%/12)*4);
+    width: calc((100%/12)*4) !important;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
   .col-lg5 {
-    width: calc((100%/12)*5);
+    width: calc((100%/12)*5) !important;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
   .col-lg6 {
-    width: calc((100%/12)*6);
+    width: calc((100%/12)*6) !important;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
   .col-lg7 {
-    width: calc((100%/12)*7);
+    width: calc((100%/12)*7) !important;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
   .col-lg8 {
-    width: calc((100%/12)*8);
+    width: calc((100%/12)*8) !important;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
   .col-lg9 {
-    width: calc((100%/12)*9);
+    width: calc((100%/12)*9) !important;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
   .col-lg10 {
-    width: calc((100%/12)*10);
+    width: calc((100%/12)*10) !important;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
   .col-lg11 {
-    width: calc((100%/12)*11);
+    width: calc((100%/12)*11) !important;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
   .col-lg12 {
-    width: calc((100%/12)*12);
+    width: calc((100%/12)*12) !important;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
 }
 
-.flex, .bar-2x, .bar-2x .bar-2x-back, .bar-2x .bar-2x-back div {
+.flex, .container .roadmap-board .board-planned .chip .comment, .container .roadmap-board .board-in-progress .chip .comment, .container .roadmap-board .board-live .chip .comment, .bar-2x, .bar-2x .bar-2x-back, .bar-2x .bar-2x-back div, .bar-2x .bar-2x-button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.display-inline-block {
+.display-inline-block, .container .roadmap-board .board-planned .board-subject a, .container .roadmap-board .board-in-progress .board-subject a, .container .roadmap-board .board-live .board-subject a {
   display: inline-block;
 }
 
@@ -339,7 +519,7 @@ table {
           justify-content: center;
 }
 
-.justify-content-between, .bar-2x, .bar-2x .bar-2x-back div {
+.justify-content-between, .container .roadmap-board .board-planned .chip .comment, .container .roadmap-board .board-in-progress .chip .comment, .container .roadmap-board .board-live .chip .comment, .bar-2x {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -350,7 +530,7 @@ table {
       justify-content: space-around;
 }
 
-.align-items-center {
+.align-items-center, .container .roadmap-board .board-planned .chip .comment, .container .roadmap-board .board-in-progress .chip .comment, .container .roadmap-board .board-live .chip .comment, .bar-2x .bar-2x-button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -364,23 +544,55 @@ table {
   background: #373F68;
 }
 
-.color-white, .bar-2x .bar-2x-back div h1 {
+.background-electric-purple-color, .bar-2x .bar-2x-button a {
+  background: #AD1FEA;
+}
+
+.background-main-color, body {
+  background: #F2F2F2;
+}
+
+.background-white-color, .container .roadmap-board .board-planned, .container .roadmap-board .board-in-progress, .container .roadmap-board .board-live {
+  background: #FFFFFF;
+}
+
+.color-white, .bar-2x .bar-2x-back div h1, .bar-2x .bar-2x-back h1 {
   color: #FFFFFF;
 }
 
-.color-moonraker, .bar-2x .bar-2x-back div i {
+.color-moonraker, .container .roadmap-board .board-planned .chip .comment i, .container .roadmap-board .board-in-progress .chip .comment i, .container .roadmap-board .board-live .chip .comment i, .bar-2x .bar-2x-back div i {
   color: #CDD2EE;
+}
+
+.color-waikawa-grey, .container .roadmap-board .board-planned p, .container .roadmap-board .board-in-progress p, .container .roadmap-board .board-live p {
+  color: #647196;
+}
+
+.color-rhino, .container .roadmap-board .board-planned h1, .container .roadmap-board .board-in-progress h1, .container .roadmap-board .board-live h1, .container .roadmap-board .board-planned .chip a, .container .roadmap-board .board-in-progress .chip a, .container .roadmap-board .board-live .chip a, .container .roadmap-board .board-planned .chip .comment h1, .container .roadmap-board .board-in-progress .chip .comment h1, .container .roadmap-board .board-live .chip .comment h1 {
+  color: #3A4374;
+}
+
+.color-blush, .container .roadmap-board .board-planned .circle {
+  color: #F49F85;
+}
+
+.color-electric-purple, .container .roadmap-board .board-in-progress .circle {
+  color: #AD1FEA;
+}
+
+.color-crystal-blue, .container .roadmap-board .board-live .circle {
+  color: #62BCFA;
 }
 
 .mt-1 {
   margin-top: calc(5px * 1) !important;
 }
 
-.mt-2 {
+.mt-2, .container .roadmap-board .board-planned .board-subject, .container .roadmap-board .board-in-progress .board-subject, .container .roadmap-board .board-live .board-subject {
   margin-top: calc(5px * 2) !important;
 }
 
-.mt-3 {
+.mt-3, .container .roadmap-board .board-planned .board-subject a, .container .roadmap-board .board-in-progress .board-subject a, .container .roadmap-board .board-live .board-subject a, .container .roadmap-board .board-planned .chip, .container .roadmap-board .board-in-progress .chip, .container .roadmap-board .board-live .chip {
   margin-top: calc(5px * 3) !important;
 }
 
@@ -388,7 +600,7 @@ table {
   margin-top: calc(5px * 4) !important;
 }
 
-.mt-5 {
+.mt-5, .container .roadmap-board .board-planned, .container .roadmap-board .board-in-progress, .container .roadmap-board .board-live {
   margin-top: calc(5px * 5) !important;
 }
 
@@ -416,11 +628,11 @@ table {
   margin-right: calc(5px * 1) !important;
 }
 
-.mr-2 {
+.mr-2, .container .roadmap-board .board-planned .chip .comment i, .container .roadmap-board .board-in-progress .chip .comment i, .container .roadmap-board .board-live .chip .comment i {
   margin-right: calc(5px * 2) !important;
 }
 
-.mr-3 {
+.mr-3, .container .roadmap-board .board-planned .circle, .container .roadmap-board .board-in-progress .circle, .container .roadmap-board .board-live .circle {
   margin-right: calc(5px * 3) !important;
 }
 
@@ -596,7 +808,7 @@ table {
   padding-top: calc(5px * 6) !important;
 }
 
-.pt-7 {
+.pt-7, .container .roadmap-board .board-planned, .container .roadmap-board .board-in-progress, .container .roadmap-board .board-live {
   padding-top: calc(5px * 7) !important;
 }
 
@@ -636,7 +848,7 @@ table {
   padding-left: calc(5px * 6) !important;
 }
 
-.pl-7, .bar-2x .bar-2x-back {
+.pl-7, .container .roadmap-board .board-planned, .container .roadmap-board .board-in-progress, .container .roadmap-board .board-live, .bar-2x .bar-2x-back {
   padding-left: calc(5px * 7) !important;
 }
 
@@ -676,11 +888,11 @@ table {
   padding-right: calc(5px * 6) !important;
 }
 
-.pr-7 {
+.pr-7, .container .roadmap-board .board-planned, .container .roadmap-board .board-in-progress, .container .roadmap-board .board-live {
   padding-right: calc(5px * 7) !important;
 }
 
-.pr-8 {
+.pr-8, .bar-2x .bar-2x-button {
   padding-right: calc(5px * 8) !important;
 }
 
@@ -716,7 +928,7 @@ table {
   padding-bottom: calc(5px * 6) !important;
 }
 
-.pb-7 {
+.pb-7, .container .roadmap-board .board-planned, .container .roadmap-board .board-in-progress, .container .roadmap-board .board-live {
   padding-bottom: calc(5px * 7) !important;
 }
 
@@ -780,15 +992,19 @@ table {
   width: 150px;
 }
 
-.border-radius-2x, .bar-2x {
+.border-radius-2x, .bar-2x, .bar-2x .bar-2x-button a {
   border-radius: 10px;
 }
 
-.color-white, .bar-2x .bar-2x-back div h1 {
+.border-radius-5x {
+  border-radius: 25px;
+}
+
+.color-white, .bar-2x .bar-2x-back div h1, .bar-2x .bar-2x-back h1 {
   color: #FFFFFF;
 }
 
-.font-weight-300 {
+.font-weight-300, .container .roadmap-board .board-planned p, .container .roadmap-board .board-in-progress p, .container .roadmap-board .board-live p {
   font-weight: 300;
 }
 
@@ -796,11 +1012,11 @@ table {
   font-weight: 500;
 }
 
-.font-weight-600 {
+.font-weight-600, .container .roadmap-board .board-planned .chip .comment h1, .container .roadmap-board .board-in-progress .chip .comment h1, .container .roadmap-board .board-live .chip .comment h1 {
   font-weight: 600;
 }
 
-.font-weight-700, .bar-2x .bar-2x-back div h1 {
+.font-weight-700, .container .roadmap-board .board-planned h1, .container .roadmap-board .board-in-progress h1, .container .roadmap-board .board-live h1, .container .roadmap-board .board-planned .chip a, .container .roadmap-board .board-in-progress .chip a, .container .roadmap-board .board-live .chip a, .bar-2x .bar-2x-back div h1, .bar-2x .bar-2x-back h1 {
   font-weight: 700;
 }
 
@@ -808,19 +1024,19 @@ table {
   font-size: 5px;
 }
 
-.font-size-2x {
+.font-size-2x, .container .roadmap-board .board-planned .circle, .container .roadmap-board .board-in-progress .circle, .container .roadmap-board .board-live .circle {
   font-size: 10px;
 }
 
-.font-size-3x, .bar-2x .bar-2x-back div h1 {
+.font-size-3x, .container .roadmap-board .board-planned p, .container .roadmap-board .board-in-progress p, .container .roadmap-board .board-live p, .container .roadmap-board .board-planned .chip a, .container .roadmap-board .board-in-progress .chip a, .container .roadmap-board .board-live .chip a, .container .roadmap-board .board-planned .chip .comment h1, .container .roadmap-board .board-in-progress .chip .comment h1, .container .roadmap-board .board-live .chip .comment h1, .bar-2x .bar-2x-back div h1 {
   font-size: 15px;
 }
 
-.font-size-4x {
+.font-size-4x, .container .roadmap-board .board-planned h1, .container .roadmap-board .board-in-progress h1, .container .roadmap-board .board-live h1 {
   font-size: 20px;
 }
 
-.font-size-5x {
+.font-size-5x, .bar-2x .bar-2x-back h1 {
   font-size: 25px;
 }
 
@@ -836,11 +1052,11 @@ table {
   line-height: 15px;
 }
 
-.line-height-4x, .bar-2x .bar-2x-back div h1 {
+.line-height-4x, .container .roadmap-board .board-planned .chip a, .container .roadmap-board .board-in-progress .chip a, .container .roadmap-board .board-live .chip a, .container .roadmap-board .board-planned .chip .comment h1, .container .roadmap-board .board-in-progress .chip .comment h1, .container .roadmap-board .board-live .chip .comment h1, .bar-2x .bar-2x-back div h1 {
   line-height: 20px;
 }
 
-.line-height-5x {
+.line-height-5x, .container .roadmap-board .board-planned p, .container .roadmap-board .board-in-progress p, .container .roadmap-board .board-live p, .container .roadmap-board .board-planned h1, .container .roadmap-board .board-in-progress h1, .container .roadmap-board .board-live h1 {
   line-height: 25px;
 }
 
@@ -848,10 +1064,72 @@ table {
   line-height: 30px;
 }
 
-.line-height-7x {
+.line-height-7x, .bar-2x .bar-2x-back h1 {
   line-height: 35px;
+}
+
+.container .roadmap-board .board-planned p, .container .roadmap-board .board-in-progress p, .container .roadmap-board .board-live p {
+  font-family: Jost;
+}
+
+.container .roadmap-board .board-planned h1, .container .roadmap-board .board-in-progress h1, .container .roadmap-board .board-live h1 {
+  font-family: Jost;
+}
+
+.container .roadmap-board .board-planned .circle, .container .roadmap-board .board-in-progress .circle, .container .roadmap-board .board-live .circle {
+  margin-top: 8px;
+}
+
+.container .roadmap-board .board-planned .chip a, .container .roadmap-board .board-in-progress .chip a, .container .roadmap-board .board-live .chip a {
+  cursor: pointer;
+}
+
+.container .roadmap-board .board-planned .chip .comment h1, .container .roadmap-board .board-in-progress .chip .comment h1, .container .roadmap-board .board-live .chip .comment h1 {
+  font-family: Jost;
+}
+
+.container .roadmap-board .board-planned {
+  border-radius: 5px 5px 0px 0px;
+  border-top: 5px solid #F49F85;
+}
+
+.container .roadmap-board .board-in-progress {
+  border-radius: 5px 5px 0px 0px;
+  border-top: 5px solid #AD1FEA;
+}
+
+.container .roadmap-board .board-live {
+  border-radius: 5px 5px 0px 0px;
+  border-top: 5px solid #62BCFA;
 }
 
 .bar-2x .bar-2x-back div h1 {
   font-family: Jost;
+}
+
+.bar-2x .bar-2x-back h1 {
+  font-family: Jost;
+}
+
+.bar-2x .bar-2x-button a {
+  padding: 15px 25px;
+}
+
+.chip-default, .container .roadmap-board .board-planned .board-subject a, .container .roadmap-board .board-in-progress .board-subject a, .container .roadmap-board .board-live .board-subject a, .container .roadmap-board .board-planned .chip a, .container .roadmap-board .board-in-progress .chip a, .container .roadmap-board .board-live .chip a {
+  background: #F2F4FF;
+  border-radius: 10px;
+  color: #4661E6;
+  padding: 5px 15px;
+}
+
+.chip-hover {
+  background: #CFD7FF;
+  border-radius: 10px;
+  color: #4661E6;
+}
+
+.chip-active {
+  background: #4661E6;
+  border-radius: 10px;
+  color: #FFFFFF;
 }

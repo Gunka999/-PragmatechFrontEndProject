@@ -1,0 +1,17 @@
+.chip-default{
+   background: $magnolia-color;
+   border-radius: $space-2x;
+   color:$ultramarine-blue-color;
+   padding: $space-x $space-3x;
+}
+
+.chip-hover{
+   background: $Tropical-Blue-color;
+   border-radius: $space-2x;
+   color:$ultramarine-blue-color;
+}
+.chip-active{
+   background: $ultramarine-blue-color;
+   border-radius: $space-2x;
+   color:$white-color
+}

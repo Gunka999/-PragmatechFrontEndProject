@@ -1,0 +1,32 @@
+.bar-2x{
+   @extend .flex;
+   @extend .justify-content-between;
+   @extend .height-23x;
+   @extend .background-rhino-blue-color;
+   @extend .border-radius-2x;
+   .bar-2x-back{
+      @extend .flex;
+      @extend .justify-content-center;
+      @extend .flex-direction-colum;
+      @extend .pl-7;
+      div{
+         @extend .flex;
+         @extend .justify-content-between;
+         @extend .mb-1;
+         h1{
+            font-family: Jost;
+            @extend .font-weight-700;
+            @extend .font-size-3x;
+            @extend .line-height-4x;
+            @extend .color-white;
+         }
+         i{
+            @extend .color-moonraker;
+            @extend .pr-3;
+         }
+      }
+   }
+   .bar-2x-button{
+
+   }
+}

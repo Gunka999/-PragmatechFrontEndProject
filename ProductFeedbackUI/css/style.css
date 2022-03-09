@@ -94,7 +94,7 @@ table {
   height: 150px;
 }
 
-.height-40x {
+.height-40x, .feadback-board, .suggestions-board-feadback {
   height: 200px;
 }
 

@@ -4,7 +4,7 @@
    @extend .height-23x;
    @extend .background-rhino-blue-color;
    @extend .border-radius-2x;
-   .bar-2x-back{
+   &-back{
       @extend .flex;
       @extend .justify-content-center;
       @extend .flex-direction-colum;
@@ -32,7 +32,7 @@
          @extend .color-white;
       }
    }
-   .bar-2x-button{
+   &-button{
       @extend .flex;
       @extend .align-items-center;
       @extend .pr-8;
@@ -40,6 +40,11 @@
          @extend .background-electric-purple-color;
          @extend .border-radius-2x;
          padding: $space-3x $space-5x;
+         font-family: Jost;
+         @extend .font-weight-700;
+         @extend .font-size-3x;
+         @extend .line-height-4x;
+         @extend .color-catskill-white;
       }
 
    }

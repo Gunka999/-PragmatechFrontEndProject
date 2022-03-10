@@ -47,6 +47,12 @@
                @extend .font-size-3x;
                @extend .line-height-4x;
                @extend .color-rhino;
+               &:hover{
+                  @extend .chip-hover; 
+               }
+               &:active{
+                  @extend .chip-active;
+               }
             } 
             .comment{
                @extend .flex;

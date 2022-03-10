@@ -492,7 +492,7 @@ table {
   }
 }
 
-.flex, .container .roadmap-board .board-planned .chip .comment, .container .roadmap-board .board-in-progress .chip .comment, .container .roadmap-board .board-live .chip .comment, .bar-2x, .bar-2x .bar-2x-back, .bar-2x .bar-2x-back div, .bar-2x .bar-2x-button {
+.flex, .container .roadmap-board .board-planned .chip .comment, .container .roadmap-board .board-in-progress .chip .comment, .container .roadmap-board .board-live .chip .comment, .bar-2x, .bar-2x-back, .bar-2x-back div, .bar-2x-button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -502,7 +502,7 @@ table {
   display: inline-block;
 }
 
-.flex-direction-colum, .bar-2x .bar-2x-back {
+.flex-direction-colum, .bar-2x-back {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -515,7 +515,7 @@ table {
           justify-content: flex-end;
 }
 
-.justify-content-center, .bar-2x .bar-2x-back {
+.justify-content-center, .bar-2x-back {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -532,7 +532,7 @@ table {
       justify-content: space-around;
 }
 
-.align-items-center, .container .roadmap-board .board-planned .chip .comment, .container .roadmap-board .board-in-progress .chip .comment, .container .roadmap-board .board-live .chip .comment, .bar-2x .bar-2x-button {
+.align-items-center, .container .roadmap-board .board-planned .chip .comment, .container .roadmap-board .board-in-progress .chip .comment, .container .roadmap-board .board-live .chip .comment, .bar-2x-button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -546,7 +546,7 @@ table {
   background: #373F68;
 }
 
-.background-electric-purple-color, .bar-2x .bar-2x-button a {
+.background-electric-purple-color, .bar-2x-button a {
   background: #AD1FEA;
 }
 
@@ -558,11 +558,11 @@ table {
   background: #FFFFFF;
 }
 
-.color-white, .bar-2x .bar-2x-back div h1, .bar-2x .bar-2x-back h1 {
+.color-white, .bar-2x-back div h1, .bar-2x-back h1 {
   color: #FFFFFF;
 }
 
-.color-moonraker, .container .roadmap-board .board-planned .chip .comment i, .container .roadmap-board .board-in-progress .chip .comment i, .container .roadmap-board .board-live .chip .comment i, .bar-2x .bar-2x-back div i {
+.color-moonraker, .container .roadmap-board .board-planned .chip .comment i, .container .roadmap-board .board-in-progress .chip .comment i, .container .roadmap-board .board-live .chip .comment i, .bar-2x-back div i {
   color: #CDD2EE;
 }
 
@@ -584,6 +584,10 @@ table {
 
 .color-crystal-blue, .container .roadmap-board .board-live .circle {
   color: #62BCFA;
+}
+
+.color-catskill-white, .bar-2x-button a {
+  color: #F2F4FE;
 }
 
 .mt-1 {
@@ -706,7 +710,7 @@ table {
   margin-left: calc(5px * 10) !important;
 }
 
-.mb-1, .bar-2x .bar-2x-back div {
+.mb-1, .bar-2x-back div {
   margin-bottom: calc(5px * 1) !important;
 }
 
@@ -850,7 +854,7 @@ table {
   padding-left: calc(5px * 6) !important;
 }
 
-.pl-7, .container .roadmap-board .board-planned, .container .roadmap-board .board-in-progress, .container .roadmap-board .board-live, .bar-2x .bar-2x-back {
+.pl-7, .container .roadmap-board .board-planned, .container .roadmap-board .board-in-progress, .container .roadmap-board .board-live, .bar-2x-back {
   padding-left: calc(5px * 7) !important;
 }
 
@@ -874,7 +878,7 @@ table {
   padding-right: calc(5px * 2) !important;
 }
 
-.pr-3, .bar-2x .bar-2x-back div i {
+.pr-3, .bar-2x-back div i {
   padding-right: calc(5px * 3) !important;
 }
 
@@ -894,7 +898,7 @@ table {
   padding-right: calc(5px * 7) !important;
 }
 
-.pr-8, .bar-2x .bar-2x-button {
+.pr-8, .bar-2x-button {
   padding-right: calc(5px * 8) !important;
 }
 
@@ -994,7 +998,7 @@ table {
   width: 150px;
 }
 
-.border-radius-2x, .bar-2x, .bar-2x .bar-2x-button a {
+.border-radius-2x, .bar-2x, .bar-2x-button a {
   border-radius: 10px;
 }
 
@@ -1002,7 +1006,7 @@ table {
   border-radius: 25px;
 }
 
-.color-white, .bar-2x .bar-2x-back div h1, .bar-2x .bar-2x-back h1 {
+.color-white, .bar-2x-back div h1, .bar-2x-back h1 {
   color: #FFFFFF;
 }
 
@@ -1018,7 +1022,7 @@ table {
   font-weight: 600;
 }
 
-.font-weight-700, .container .roadmap-board .board-planned h1, .container .roadmap-board .board-in-progress h1, .container .roadmap-board .board-live h1, .container .roadmap-board .board-planned .chip a, .container .roadmap-board .board-in-progress .chip a, .container .roadmap-board .board-live .chip a, .bar-2x .bar-2x-back div h1, .bar-2x .bar-2x-back h1, .total-task h1 {
+.font-weight-700, .container .roadmap-board .board-planned h1, .container .roadmap-board .board-in-progress h1, .container .roadmap-board .board-live h1, .container .roadmap-board .board-planned .chip a, .container .roadmap-board .board-in-progress .chip a, .container .roadmap-board .board-live .chip a, .bar-2x-back div h1, .bar-2x-back h1, .bar-2x-button a, .total-task h1 {
   font-weight: 700;
 }
 
@@ -1030,7 +1034,7 @@ table {
   font-size: 10px;
 }
 
-.font-size-3x, .container .roadmap-board .board-planned p, .container .roadmap-board .board-in-progress p, .container .roadmap-board .board-live p, .container .roadmap-board .board-planned .chip a, .container .roadmap-board .board-in-progress .chip a, .container .roadmap-board .board-live .chip a, .container .roadmap-board .board-planned .chip .comment h1, .container .roadmap-board .board-in-progress .chip .comment h1, .container .roadmap-board .board-live .chip .comment h1, .bar-2x .bar-2x-back div h1, .total-task p {
+.font-size-3x, .container .roadmap-board .board-planned p, .container .roadmap-board .board-in-progress p, .container .roadmap-board .board-live p, .container .roadmap-board .board-planned .chip a, .container .roadmap-board .board-in-progress .chip a, .container .roadmap-board .board-live .chip a, .container .roadmap-board .board-planned .chip .comment h1, .container .roadmap-board .board-in-progress .chip .comment h1, .container .roadmap-board .board-live .chip .comment h1, .bar-2x-back div h1, .bar-2x-button a, .total-task p {
   font-size: 15px;
 }
 
@@ -1038,7 +1042,7 @@ table {
   font-size: 20px;
 }
 
-.font-size-5x, .bar-2x .bar-2x-back h1 {
+.font-size-5x, .bar-2x-back h1 {
   font-size: 25px;
 }
 
@@ -1054,7 +1058,7 @@ table {
   line-height: 15px;
 }
 
-.line-height-4x, .container .roadmap-board .board-planned .chip a, .container .roadmap-board .board-in-progress .chip a, .container .roadmap-board .board-live .chip a, .container .roadmap-board .board-planned .chip .comment h1, .container .roadmap-board .board-in-progress .chip .comment h1, .container .roadmap-board .board-live .chip .comment h1, .bar-2x .bar-2x-back div h1 {
+.line-height-4x, .container .roadmap-board .board-planned .chip a, .container .roadmap-board .board-in-progress .chip a, .container .roadmap-board .board-live .chip a, .container .roadmap-board .board-planned .chip .comment h1, .container .roadmap-board .board-in-progress .chip .comment h1, .container .roadmap-board .board-live .chip .comment h1, .bar-2x-back div h1, .bar-2x-button a {
   line-height: 20px;
 }
 
@@ -1066,7 +1070,7 @@ table {
   line-height: 30px;
 }
 
-.line-height-7x, .bar-2x .bar-2x-back h1 {
+.line-height-7x, .bar-2x-back h1 {
   line-height: 35px;
 }
 
@@ -1105,16 +1109,17 @@ table {
   border-top: 5px solid #62BCFA;
 }
 
-.bar-2x .bar-2x-back div h1 {
+.bar-2x-back div h1 {
   font-family: Jost;
 }
 
-.bar-2x .bar-2x-back h1 {
+.bar-2x-back h1 {
   font-family: Jost;
 }
 
-.bar-2x .bar-2x-button a {
+.bar-2x-button a {
   padding: 15px 25px;
+  font-family: Jost;
 }
 
 .chip-default, .container .roadmap-board .board-planned .board-subject a, .container .roadmap-board .board-in-progress .board-subject a, .container .roadmap-board .board-live .board-subject a, .container .roadmap-board .board-planned .chip a, .container .roadmap-board .board-in-progress .chip a, .container .roadmap-board .board-live .chip a {
@@ -1124,13 +1129,13 @@ table {
   padding: 5px 15px;
 }
 
-.chip-hover {
+.chip-hover, .container .roadmap-board .board-planned .chip a:hover, .container .roadmap-board .board-in-progress .chip a:hover, .container .roadmap-board .board-live .chip a:hover {
   background: #CFD7FF;
   border-radius: 10px;
   color: #4661E6;
 }
 
-.chip-active {
+.chip-active, .container .roadmap-board .board-planned .chip a:active, .container .roadmap-board .board-in-progress .chip a:active, .container .roadmap-board .board-live .chip a:active {
   background: #4661E6;
   border-radius: 10px;
   color: #FFFFFF;

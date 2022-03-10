@@ -15,6 +15,7 @@ $container-width:1200px;
 .row{
    display: flex;
    justify-content: space-between;
+   flex-wrap: wrap;
 }
 
 @for $i from 1 through 12 {

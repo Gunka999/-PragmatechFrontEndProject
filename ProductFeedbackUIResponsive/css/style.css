@@ -92,6 +92,8 @@ table {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .col-1 {
@@ -564,11 +566,11 @@ table {
   color: #CDD2EE;
 }
 
-.color-waikawa-grey, .container .roadmap-board .board-planned p, .container .roadmap-board .board-in-progress p, .container .roadmap-board .board-live p {
+.color-waikawa-grey, .container .roadmap-board .board-planned p, .container .roadmap-board .board-in-progress p, .container .roadmap-board .board-live p, .total-task p {
   color: #647196;
 }
 
-.color-rhino, .container .roadmap-board .board-planned h1, .container .roadmap-board .board-in-progress h1, .container .roadmap-board .board-live h1, .container .roadmap-board .board-planned .chip a, .container .roadmap-board .board-in-progress .chip a, .container .roadmap-board .board-live .chip a, .container .roadmap-board .board-planned .chip .comment h1, .container .roadmap-board .board-in-progress .chip .comment h1, .container .roadmap-board .board-live .chip .comment h1 {
+.color-rhino, .container .roadmap-board .board-planned h1, .container .roadmap-board .board-in-progress h1, .container .roadmap-board .board-live h1, .container .roadmap-board .board-planned .chip a, .container .roadmap-board .board-in-progress .chip a, .container .roadmap-board .board-live .chip a, .container .roadmap-board .board-planned .chip .comment h1, .container .roadmap-board .board-in-progress .chip .comment h1, .container .roadmap-board .board-live .chip .comment h1, .total-task h1 {
   color: #3A4374;
 }
 
@@ -1004,7 +1006,7 @@ table {
   color: #FFFFFF;
 }
 
-.font-weight-300, .container .roadmap-board .board-planned p, .container .roadmap-board .board-in-progress p, .container .roadmap-board .board-live p {
+.font-weight-300, .container .roadmap-board .board-planned p, .container .roadmap-board .board-in-progress p, .container .roadmap-board .board-live p, .total-task p {
   font-weight: 300;
 }
 
@@ -1016,7 +1018,7 @@ table {
   font-weight: 600;
 }
 
-.font-weight-700, .container .roadmap-board .board-planned h1, .container .roadmap-board .board-in-progress h1, .container .roadmap-board .board-live h1, .container .roadmap-board .board-planned .chip a, .container .roadmap-board .board-in-progress .chip a, .container .roadmap-board .board-live .chip a, .bar-2x .bar-2x-back div h1, .bar-2x .bar-2x-back h1 {
+.font-weight-700, .container .roadmap-board .board-planned h1, .container .roadmap-board .board-in-progress h1, .container .roadmap-board .board-live h1, .container .roadmap-board .board-planned .chip a, .container .roadmap-board .board-in-progress .chip a, .container .roadmap-board .board-live .chip a, .bar-2x .bar-2x-back div h1, .bar-2x .bar-2x-back h1, .total-task h1 {
   font-weight: 700;
 }
 
@@ -1028,11 +1030,11 @@ table {
   font-size: 10px;
 }
 
-.font-size-3x, .container .roadmap-board .board-planned p, .container .roadmap-board .board-in-progress p, .container .roadmap-board .board-live p, .container .roadmap-board .board-planned .chip a, .container .roadmap-board .board-in-progress .chip a, .container .roadmap-board .board-live .chip a, .container .roadmap-board .board-planned .chip .comment h1, .container .roadmap-board .board-in-progress .chip .comment h1, .container .roadmap-board .board-live .chip .comment h1, .bar-2x .bar-2x-back div h1 {
+.font-size-3x, .container .roadmap-board .board-planned p, .container .roadmap-board .board-in-progress p, .container .roadmap-board .board-live p, .container .roadmap-board .board-planned .chip a, .container .roadmap-board .board-in-progress .chip a, .container .roadmap-board .board-live .chip a, .container .roadmap-board .board-planned .chip .comment h1, .container .roadmap-board .board-in-progress .chip .comment h1, .container .roadmap-board .board-live .chip .comment h1, .bar-2x .bar-2x-back div h1, .total-task p {
   font-size: 15px;
 }
 
-.font-size-4x, .container .roadmap-board .board-planned h1, .container .roadmap-board .board-in-progress h1, .container .roadmap-board .board-live h1 {
+.font-size-4x, .container .roadmap-board .board-planned h1, .container .roadmap-board .board-in-progress h1, .container .roadmap-board .board-live h1, .total-task h1 {
   font-size: 20px;
 }
 
@@ -1056,7 +1058,7 @@ table {
   line-height: 20px;
 }
 
-.line-height-5x, .container .roadmap-board .board-planned p, .container .roadmap-board .board-in-progress p, .container .roadmap-board .board-live p, .container .roadmap-board .board-planned h1, .container .roadmap-board .board-in-progress h1, .container .roadmap-board .board-live h1 {
+.line-height-5x, .container .roadmap-board .board-planned p, .container .roadmap-board .board-in-progress p, .container .roadmap-board .board-live p, .container .roadmap-board .board-planned h1, .container .roadmap-board .board-in-progress h1, .container .roadmap-board .board-live h1, .total-task p, .total-task h1 {
   line-height: 25px;
 }
 
@@ -1132,4 +1134,12 @@ table {
   background: #4661E6;
   border-radius: 10px;
   color: #FFFFFF;
+}
+
+.total-task p {
+  font-family: Jost;
+}
+
+.total-task h1 {
+  font-family: Jost;
 }

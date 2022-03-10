@@ -33,6 +33,12 @@
                @extend .mt-3;
                @extend .display-inline-block;
                @extend .chip-default;
+               &:hover{
+                  @extend .chip-hover; 
+               }
+               &:active{
+                  @extend .chip-active;
+               }
             }
          }
          .chip{

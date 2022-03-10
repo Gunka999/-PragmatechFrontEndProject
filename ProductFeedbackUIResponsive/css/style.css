@@ -1129,13 +1129,13 @@ table {
   padding: 5px 15px;
 }
 
-.chip-hover, .container .roadmap-board .board-planned .chip a:hover, .container .roadmap-board .board-in-progress .chip a:hover, .container .roadmap-board .board-live .chip a:hover {
+.chip-hover, .container .roadmap-board .board-planned .board-subject a:hover, .container .roadmap-board .board-in-progress .board-subject a:hover, .container .roadmap-board .board-live .board-subject a:hover, .container .roadmap-board .board-planned .chip a:hover, .container .roadmap-board .board-in-progress .chip a:hover, .container .roadmap-board .board-live .chip a:hover {
   background: #CFD7FF;
   border-radius: 10px;
   color: #4661E6;
 }
 
-.chip-active, .container .roadmap-board .board-planned .chip a:active, .container .roadmap-board .board-in-progress .chip a:active, .container .roadmap-board .board-live .chip a:active {
+.chip-active, .container .roadmap-board .board-planned .board-subject a:active, .container .roadmap-board .board-in-progress .board-subject a:active, .container .roadmap-board .board-live .board-subject a:active, .container .roadmap-board .board-planned .chip a:active, .container .roadmap-board .board-in-progress .chip a:active, .container .roadmap-board .board-live .chip a:active {
   background: #4661E6;
   border-radius: 10px;
   color: #FFFFFF;

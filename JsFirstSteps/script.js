@@ -82,6 +82,8 @@ let CY=345;
 
 let AB =Math.sqrt(Math.pow((AX-BX),2)+ Math.pow((AY-BY),2));
 let AC=Math.sqrt(Math.pow((AX-CX),2)+ Math.pow((AY-CY),2));
+console.log(AB);
+console.log(AC);
 
 if (AB>AC) {
    console.log(`C noqtesi A noqtesine daha yaxindir.`);

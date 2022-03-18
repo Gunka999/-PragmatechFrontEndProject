@@ -33,6 +33,7 @@ for (var i = l.length - 1; i >= 0; i--) {
 
 // verilən 4 ədədi böyükdən kiçiyə doğru ekrana çap edən program yazın
 
+// 1-ci variant
 let d = 8;
 let f =2;
 let g =6;
@@ -40,6 +41,9 @@ let h =3;
 let arr =[d , f, g, h];
 arr.sort((a, b) => a - b);
 console.log(arr);
+
+// 2-ci variant
+
 
 // 3 reqem olsaydi bu qaydada ederdim
 let result_min;
@@ -67,3 +71,24 @@ console.log(result_2);
 // a_x=120,a_y=200
 // b_x=230,b_y=400
 // c_x=210,c_y=345
+
+
+let AX =120;
+let AY=200;
+let BX =230;
+let BY=400;
+let CX=210;
+let CY=345;
+
+let AB =Math.sqrt(Math.pow((AX-BX),2)+ Math.pow((AY-BY),2));
+let AC=Math.sqrt(Math.pow((AX-CX),2)+ Math.pow((AY-CY),2));
+
+if (AB>AC) {
+   console.log(`C noqtesi A noqtesine daha yaxindir.`);
+}else if(AB<AC){
+   console.log(`B noqtesi A noqtesine daha yaxindir.`);
+}else if(AB==AC){
+   console.log(`B ve C noqtesi A noqtesine eyni mesafededir`);
+}else{
+   console.log(`Mesafe hesablana bilmedi`)
+}

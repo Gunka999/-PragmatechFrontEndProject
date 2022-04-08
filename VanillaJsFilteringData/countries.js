@@ -60100,4 +60100,17 @@ function cityNames (_arr){
    _cityNameData.sort((a, b) => b - a);
    console.log(_cityNameData[0])
 }
-cityNames(countries);
+// cityNames(countries);
+
+
+// Bütün ölkələrin şəhər saylarının olduğu objecti return edən funksiya yazın .Nümunə {"Azerbaijan":70,"Turkey":300}
+
+function amountOfElements (_amount){
+   _amountData = ""
+   for(let _key in _amount){
+      _amountData +=   `${_key} : ${(_amount[_key]).length} \n` 
+   }
+
+   console.log(_amountData)
+}
+// amountOfElements(countries);

@@ -60043,22 +60043,24 @@ const countries = {
    ]
 }
 
-// exports.contries = countries
 
 
-// Sadəcə ölkə adlarının olduğu array-ı return edən funksiya yazın
+// 1. Sadəcə ölkə adlarının olduğu array-ı return edən funksiya yazın
 
 function nameCountries (_obj){
-   _objData = ""
+    _arrNames = []
    for(let _key in _obj){
-      _objData += `${_key} \n `
+    _arrNames.push(_key);
    }
-   console.log(_objData)
+   return console.log(_arrNames)
 }
-
 // nameCountries(countries);
 
-// Hərfə görə ölkə sayının olduğu object return edən funksiya yazın. Nümunə {"A":20,"B":15}
+
+
+
+
+// 2.  Hərfə görə ölkə sayının olduğu object return edən funksiya yazın. Nümunə {"A":20,"B":15}
 function amountOfElements (_amount){
    _amountData = ""
    for(let _key in _amount){
@@ -60071,7 +60073,8 @@ function amountOfElements (_amount){
 
 
 
-// Ən çox şəhəri olan ölkə adını return edən funksiya yazın
+
+// 3. Ən çox şəhəri olan ölkə adını return edən funksiya yazın
 
 function maxCities (_maxCities){
    _citiesData = []

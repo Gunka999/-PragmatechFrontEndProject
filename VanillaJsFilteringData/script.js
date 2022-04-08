@@ -60069,18 +60069,35 @@ function amountOfElements (_amount){
 }
 // amountOfElements(countries);
 
+
+
 // Ən çox şəhəri olan ölkə adını return edən funksiya yazın
 
 function maxCities (_maxCities){
-   _citiesData = ""
+   _citiesData = []
+   let max;
+   
    for (let _key in _maxCities){
-   _citiesData += ` ${(_maxCities[_key]).length} \n`
+   _citiesData += `${_key} : ${(_maxCities[_key]).length} \n`
    }
-   // let max = Math.max.apply(null, _citiesData);
-   // let sortm = _citiesData.sort(function(a, b) {return a-b});
+   // max = Math.max.apply(null, _citiesData);
+   _citiesData.sort((a, b) => b - a);
    // console.log(max)
-   console.log(_citiesData)
+   console.log(_citiesData[0])
 
 }
 
-maxCities(countries);
+// maxCities(countries);
+
+
+// Ölkə adı ən uzun olan ölkənin şəhərlərini return edən funksiya yazın.
+
+function cityNames (_arr){
+   _cityNameData = []
+   for(let _key in _arr){
+      _cityNameData += `${(_key).length} : ${_arr[_key]} \n` 
+   }
+   _cityNameData.sort((a, b) => b - a);
+   console.log(_cityNameData[0])
+}
+cityNames(countries);

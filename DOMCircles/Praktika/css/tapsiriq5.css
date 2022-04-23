@@ -1,0 +1,63 @@
+BODY{
+  /* width: 100%;
+  height: 500px; */
+  background-image: url(../bilyard.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 0;
+  position: absolute;
+}
+
+.agTop{
+width: 60px;
+height: 60px;
+border-radius:50%;
+background:white;
+position: absolute;
+z-index: 5;
+}
+
+.qaraTop{
+  width: 60px;
+  height: 60px;
+  border-radius:50%;
+  background:black;
+  position: absolute;
+  z-index: 1;
+  display: FLEX;
+  align-items: CENTER;
+  justify-content: CENTER;
+  color: white;
+  FONT-SIZE: 25px;
+  FONT-WEIGHT: 700;
+}
+
+.maviTop{
+  width: 60px;
+  height: 60px;
+  border-radius:50%;
+  background:rgb(33, 35, 177);
+  position: absolute;
+  z-index: 2;
+  display: FLEX;
+  align-items: CENTER;
+  justify-content: CENTER;
+  color: white;
+  FONT-SIZE: 25px;
+  FONT-WEIGHT: 700;
+}
+
+.qirmiziTop{
+  width: 60px;
+  height: 60px;
+  border-radius:50%;
+  background:red;
+  position: absolute;
+  z-index: 3;
+  display: FLEX;
+  align-items: CENTER;
+  justify-content: CENTER;
+  color: white;
+  FONT-SIZE: 25px;
+  FONT-WEIGHT: 700;
+}

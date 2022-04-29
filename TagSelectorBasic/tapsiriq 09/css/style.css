@@ -1,0 +1,33 @@
+body {
+   background-color: black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ .container {
+   width: 800px;
+   height: 600px;
+   background-color:#EEF5FF;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .onOff {
+   width: 70px;
+   height: 40px;
+   background-color: rgb(113, 113, 237);
+   border: 1px solid black;
+ }
+ 
+ .on {
+   border-radius: 10px 0 0 10px;
+ }
+ .of {
+   border-radius: 0 10px 10px 0;
+ }
+ p {
+   font-size: 25px;
+   font-weight: 600;
+   margin: 10px;
+ }

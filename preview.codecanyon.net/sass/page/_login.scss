@@ -1,0 +1,8 @@
+.login_text{
+   @extend .text-align-center;
+}
+
+.login_forms form{
+@extend .flex;
+@extend .flex-direction-colum;
+}

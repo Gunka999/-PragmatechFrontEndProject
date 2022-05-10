@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    /> -->
+
     <title>Document</title>
   </head>
   <body>
@@ -16,9 +21,9 @@
         <div class="login_forms">
           <form>
             <label for="fname">Username</label>
-            <input type="text" id="fname" name="fname" placeholder="Email" />
+            <input type="text" class="email" placeholder="Email" />
             <label for="lname">Password</label>
-            <input type="text" id="lname" name="lname" placeholder="Password" />
+            <input type="text" class="password" placeholder="Password" />
           </form>
         </div>
         <div class="login_remember">
@@ -28,18 +33,72 @@
               <label>Remember Me</label>
             </p>
           </form>
-          <h1>Forgot Password?</h1>
+          <h1 class="forget_password">Forgot Password?</h1>
         </div>
         <div class="login_btn">
-          <button>Login</button>
+          <button class="check">Login</button>
         </div>
         <div class="login_social_btn">
           <a href="https://www.google.com/" class="btn_google">Google</a>
           <a href="https://www.facebook.com/" class="btn_fb">Facebook</a>
         </div>
+        <div class="login_singUp">
+          <h1 class="sing_up">Sign Up</h1>
+        </div>
       </div>
+
+      <div class="row forgetPassword_page display-none">
+        <div class="forgetPassword_text">
+          <h1>Forgot Password</h1>
+        </div>
+        <div class="forgetPassword_forms">
+          <form>
+            <label for="fname">Email</label>
+            <input type="text" class="email" placeholder="Email" />
+          </form>
+        </div>
+        <div class="forgetPassword_btn">
+          <button class="check">Login</button>
+        </div>
+        <div class="forgetPassword_login">
+          <h1 class="logIn">Log In</h1>
+        </div>
+      </div>
+
+      <div class="row singup_page display-none">
+        <div class="singup_text">
+          <h1>Sign Up Here</h1>
+        </div>
+        <div class="singup_forms">
+          <form>
+            <label for="fname">Full Name</label>
+            <input type="text" class="FullName" placeholder="Full Name" />
+            <label for="fname">Email</label>
+            <input type="text" class="email" placeholder="Email" />
+            <label for="fname">Password</label>
+            <input type="text" class="password" placeholder="Password" />
+            <label for="fname">Confirm Password</label>
+            <input
+              type="text"
+              class="confirmPassword"
+              placeholder="Confirm Password"
+            />
+          </form>
+        </div>
+        <div class="singup_btn">
+          <button class="check">Sing Up</button>
+        </div>
+        <div class="singup_login">
+          <h1 class="login">Log In</h1>
+        </div>
+      </div>
+
+      <div class="circle circle-left"></div>
+      <div class="circle circle-right"></div>
     </div>
 
-    <script src="js/app.js"></script>
+    <script src="js/login.js"></script>
+    <script src="js/forgotPassword.js"></script>
+    <script src="js/singUp.js"></script>
   </body>
 </html>

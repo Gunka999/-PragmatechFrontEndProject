@@ -3,6 +3,8 @@
   margin: 100px auto;
   background-color: rgba(255, 255, 255, 0.13);
   position: relative;
+  box-shadow: 0 0 15px rgb(8 7 16 / 30%);
+  height: 700px;
 }
 
 .row {
@@ -50,12 +52,22 @@ a {
 .col-12 {
   width: calc((100% / 12) * 12);
 }
-
+/* 
 .login_page,
 .forgetPassword_page,
 .singup_page {
   box-shadow: 0 0 15px rgb(8 7 16 / 30%);
   padding: 55px;
+} */
+
+.login_page {
+  padding: 45px 45px 60px 45px;
+}
+.forgetPassword_page {
+  padding: 125px 45px 60px 45px;
+}
+.singup_page {
+  padding: 45px 45px 60px 45px;
 }
 
 .login_text,
@@ -205,7 +217,7 @@ a {
 
 .shakeX {
   -webkit-animation-name: shakerX;
-  -webkit-animation-duration: 0.3s;
+  -webkit-animation-duration: 0.6s;
   -webkit-transform-origin: 70% 70%;
   -webkit-animation-timing-function: linear;
   /* border: 1px solid red; */
@@ -226,22 +238,22 @@ a {
 
 .shakeY {
   -webkit-animation-name: shakerY;
-  -webkit-animation-duration: 0.3s;
+  -webkit-animation-duration: 0.9s;
   -webkit-transform-origin: 70% 70%;
-  -webkit-animation-timing-function: linear;
+  -webkit-animation-timing-function: ease-in-out;
   /* border: 1px solid red; */
   /* background-color: #c0392b; */
 }
 
 @-webkit-keyframes shakerY {
   0% {
-    -webkit-transform: translate(0, 6px);
+    -webkit-transform: translate(0, -30px);
   }
   50% {
-    -webkit-transform: translate(0, -6px);
+    -webkit-transform: translate(0, 30px);
   }
   100% {
-    -webkit-transform: translate(0, 6px);
+    -webkit-transform: translate(0, -600px);
   }
 }
 
@@ -250,4 +262,12 @@ a {
 }
 .display-block {
   display: block;
+}
+
+.height-700 {
+  height: 700px;
+}
+
+.height-500 {
+  height: 500px;
 }

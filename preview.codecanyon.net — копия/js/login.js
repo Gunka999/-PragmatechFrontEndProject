@@ -40,20 +40,38 @@ document
   .addEventListener("click", function () {
     const loginPage = document.querySelector(".login_page");
     const forgetPasswordPage = document.querySelector(".forgetPassword_page");
+    const singupPage = document.querySelector(".singup_page");
+    const container = document.querySelector(".container");
     loginPage.classList.add("shakeY");
     setTimeout(() => {
+      loginPage.classList.remove("display-block");
       loginPage.classList.add("display-none");
-      forgetPasswordPage.classList.add("display-block");
-    }, 500);
+      forgetPasswordPage.classList.add("display-block", "shakeY");
+      loginPage.classList.remove("shakeY");
+      // container.classList.remove("height-700");
+      // container.classList.add("height-500");
+    }, 900);
+    setTimeout(() => {
+      forgetPasswordPage.classList.remove("shakeY");
+    }, 1200);
   });
 
 document.querySelector(".sing_up").addEventListener("click", function () {
   const loginPage = document.querySelector(".login_page");
   const singupPage = document.querySelector(".singup_page");
+  const forgetPasswordPage = document.querySelector(".forgetPassword_page");
+  const container = document.querySelector(".container");
 
   loginPage.classList.add("shakeY");
   setTimeout(() => {
+    loginPage.classList.remove("display-block");
     loginPage.classList.add("display-none");
-    singupPage.classList.add("display-block");
-  }, 500);
+    singupPage.classList.add("display-block", "shakeY");
+    loginPage.classList.remove("shakeY");
+    // container.classList.remove("height-500");
+    // container.classList.add("height-700");
+  }, 900);
+  setTimeout(() => {
+    singupPage.classList.remove("shakeY");
+  }, 1200);
 });

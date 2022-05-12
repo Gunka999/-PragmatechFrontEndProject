@@ -1,36 +1,41 @@
 document.querySelector(".check").addEventListener("click", function () {
   const emailValue = document.querySelector(".email").value;
-  //   const emailType = emailValue.value.includes("@");
-  //   console.log(emailType);
   const passwordValue = document.querySelector(".password").value;
+  let email = document.querySelector(".email");
+  let password = document.querySelector(".password");
+  let validCheck = document.querySelector(".validCheck");
+  let pattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
 
   if (!emailValue) {
-    //  document.querySelector(".email").className =
-    //    "animate__animated animate__shakeX empty-imnput";
-    // const EmailE = document.querySelector(".email");
-    document.querySelector(".email").classList.add("shakeX", "empty-input");
+    email.classList.add("shakeX", "empty-input");
     setTimeout(function () {
-      document.querySelector(".email").classList.remove("shakeX");
+      email.classList.remove("shakeX");
     }, 500);
   } else {
-    document.querySelector(".email").classList.remove("empty-input");
-    //  document.querySelector(".email").classList.add("filled-input");
+    function validate() {
+      if (emailValue.match(pattern)) {
+        email.classList.add("valid");
+        validCheck.classList.remove("zindex1");
+      } else {
+        email.classList.remove("valid");
+        email.classList.add("shakeX");
+        setTimeout(() => {
+          email.classList.remove("shakeX");
+        }, 500);
+      }
+    }
+    validate();
   }
 
   if (!passwordValue) {
-    //  document.querySelector(".email").className =
-    //    "animate__animated animate__shakeX empty-imnput";
-
-    document.querySelector(".password").classList.add("shakeX", "empty-input");
+    password.classList.add("shakeX", "empty-input");
     setTimeout(function () {
-      document.querySelector(".password").classList.remove("shakeX");
+      password.classList.remove("shakeX");
     }, 500);
   } else {
-    document.querySelector(".password").classList.remove("empty-input");
-    //  document.querySelector(".email").classList.add("filled-input");
+    password.classList.remove("empty-input");
   }
-
-  if (emailValue && passwordValue) {
+  if (emailValue.match(pattern) && passwordValue) {
     window.location.href = "http://127.0.0.1:5501/ugurlu.html";
   }
 });
@@ -48,8 +53,6 @@ document
       loginPage.classList.add("display-none");
       forgetPasswordPage.classList.add("display-block", "shakeY");
       loginPage.classList.remove("shakeY");
-      // container.classList.remove("height-700");
-      // container.classList.add("height-500");
     }, 900);
     setTimeout(() => {
       forgetPasswordPage.classList.remove("shakeY");
@@ -68,8 +71,6 @@ document.querySelector(".sing_up").addEventListener("click", function () {
     loginPage.classList.add("display-none");
     singupPage.classList.add("display-block", "shakeY");
     loginPage.classList.remove("shakeY");
-    // container.classList.remove("height-500");
-    // container.classList.add("height-700");
   }, 900);
   setTimeout(() => {
     singupPage.classList.remove("shakeY");

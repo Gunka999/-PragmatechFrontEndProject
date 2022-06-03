@@ -1,0 +1,27 @@
+.container_footer{
+background-image: url('../../img/img07.jpg');
+padding: 200px 0px 160px 0px;
+overflow: hidden;
+background-position: 50% 50%;
+background-size: cover;
+background-attachment: fixed;
+@extend .font-size-6x;
+color: #fff;
+@extend .text-align-center;
+@extend .font-weight-700;
+ p{
+    @extend .mb-8;
+ }
+}
+
+
+.btnfooter{
+   @extend .font-size-8x;
+   radius: $space-9x;
+   border-radius: $space-9x;
+   display: inline-block;
+   vertical-align: middle;
+   padding: $space-4x $space-8x;
+   background: #ff6060;
+   border: none;
+}

@@ -76,3 +76,7 @@ document.querySelector(".sing_up").addEventListener("click", function () {
     singupPage.classList.remove("shakeY");
   }, 1200);
 });
+
+function changeType() {
+  document.querySelector(".password").type = "text";
+}

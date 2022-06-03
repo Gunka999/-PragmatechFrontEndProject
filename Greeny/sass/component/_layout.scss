@@ -1,0 +1,25 @@
+.container_layout{
+background:#F1F5FA;
+padding: 120px 0px 110px 0px;
+}
+.article_info{
+padding-top: $space-20x;
+h1{
+   @extend .font-size-10x;
+   @extend .line-height-10x;
+   color: #223645;
+   @extend .font-weight-700;
+   @extend .mb-7;
+}
+p{
+   @extend .font-size-4x;
+   line-height: 1.4285;
+   color: #868686;
+}
+}
+
+.article_img{
+   img{
+      width: 100%;
+   }
+}

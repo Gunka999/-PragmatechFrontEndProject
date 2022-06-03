@@ -2,8 +2,8 @@ var addTwoNumbers = function (l1, l2) {
   let _l1 = l1;
   let _l2 = l2;
   console.log(_l1, _l2);
-  let x = _l1.reverse();
-  let y = _l2.reverse();
+  let x = l1.reverse();
+  let y = l2.reverse();
   console.log(x, y);
   let numberl1 = Number(x.join(""));
   let numberl2 = Number(y.join(""));

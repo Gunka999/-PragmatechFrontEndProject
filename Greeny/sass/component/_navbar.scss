@@ -1,0 +1,46 @@
+.container_navBar{
+   @extend .pt-4;
+}
+.navBar{
+   @extend .flex;
+   @extend .justify-content-between;
+}
+.navHolder{
+   @extend .flex;
+   ul{
+      @extend .flex;
+      @extend .mt-2;
+      li{
+         @extend .mr-5;
+         a{
+            color: $main-color;
+            @extend .font-size-4x;
+            @extend .font-weight-700;
+            &:hover{
+               color:$primary-color;
+            }
+      }
+   }
+} 
+}
+
+.navBtn{
+@extend .pt-2;
+@extend .pb-2;
+@extend .pl-5;
+@extend .pr-5;
+background: #FF6060;
+@extend .font-size-3x;
+@extend .line-height-3x;
+@extend .color-white;
+border-radius: $space-9x;
+border: none;
+}
+
+.banner_container{
+   overflow: hidden;
+    height: 900px;
+    background-image: url(../../img/img01.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
